@@ -1,0 +1,921 @@
+identificación,edad,sexo,conjunto de datos,cp,trestbps(presion arterialen reposo),chol(medida del colesterol),fbs(nivel de azucar en la sangre en ayunas ),restecg(Resultados ECG electrocardiacos en reposo),thalch(frecuencia cardíaca máxima alcanzada),exang (angina inducida por el ejercicio),oldpeak(Depresión del segmento ST inducida por el ejercicio en relación con el reposo),slope(la pendiente del segmento ST del ejercicio máximo),ca(Número de vasos principales (0-3) coloreados por fluorosopía),thal([normal; defecto fijo; defecto reversible]),num(el atributo predicho)
+1,63,Masculino,Cleveland,angina tipica,145,233,VERDAD,Hipertrofia del ventriculo izquierdo,150,FALSO,2.3,pendiente abajo,0,defecto corregido,0
+2,67,Masculino,Cleveland,asintomatico,160,286,FALSO,Hipertrofia del ventriculo izquierdo,108,VERDAD,1.5,departamento,3,normal,2
+3,67,Masculino,Cleveland,asintomatico,120,229,FALSO,Hipertrofia del ventriculo izquierdo,129,VERDAD,2.6,departamento,2,defecto reversible,1
+4,37,Masculino,Cleveland,no anginoso,130,250,FALSO,normal,187,FALSO,3.5,pendiente abajo,0,normal,0
+5,41,Femenino,Cleveland,angina atipica,130,204,FALSO,Hipertrofia del ventriculo izquierdo,172,FALSO,1.4,pendiente ascendente,0,normal,0
+6,56,Masculino,Cleveland,angina atipica,120,236,FALSO,normal,178,FALSO,0.8,pendiente ascendente,0,normal,0
+7,62,Femenino,Cleveland,asintomatico,140,268,FALSO,Hipertrofia del ventriculo izquierdo,160,FALSO,3.6,pendiente abajo,2,normal,3
+8,57,Femenino,Cleveland,asintomatico,120,354,FALSO,normal,163,VERDAD,0.6,pendiente ascendente,0,normal,0
+9,63,Masculino,Cleveland,asintomatico,130,254,FALSO,Hipertrofia del ventriculo izquierdo,147,FALSO,1.4,departamento,1,defecto reversible,2
+10,53,Masculino,Cleveland,asintomatico,140,203,VERDAD,Hipertrofia del ventriculo izquierdo,155,VERDAD,3.1,pendiente abajo,0,defecto reversible,1
+11,57,Masculino,Cleveland,asintomatico,140,192,FALSO,normal,148,FALSO,0.4,departamento,0,defecto corregido,0
+12,56,Femenino,Cleveland,angina atipica,140,294,FALSO,Hipertrofia del ventriculo izquierdo,153,FALSO,1.3,departamento,0,normal,0
+13,56,Masculino,Cleveland,no anginoso,130,256,VERDAD,Hipertrofia del ventriculo izquierdo,142,VERDAD,0.6,departamento,1,defecto corregido,2
+14,44,Masculino,Cleveland,angina atipica,120,263,FALSO,normal,173,FALSO,0,pendiente ascendente,0,defecto reversible,0
+15,52,Masculino,Cleveland,no anginoso,172,199,VERDAD,normal,162,FALSO,0.5,pendiente ascendente,0,defecto reversible,0
+16,57,Masculino,Cleveland,no anginoso,150,168,FALSO,normal,174,FALSO,1.6,pendiente ascendente,0,normal,0
+17,48,Masculino,Cleveland,angina atipica,110,229,FALSO,normal,168,FALSO,1,pendiente abajo,0,defecto reversible,1
+18,54,Masculino,Cleveland,asintomatico,140,239,FALSO,normal,160,FALSO,1.2,pendiente ascendente,0,normal,0
+19,48,Femenino,Cleveland,no anginoso,130,275,FALSO,normal,139,FALSO,0.2,pendiente ascendente,0,normal,0
+20,49,Masculino,Cleveland,angina atipica,130,266,FALSO,normal,171,FALSO,0.6,pendiente ascendente,0,normal,0
+21,64,Masculino,Cleveland,angina tipica,110,211,FALSO,Hipertrofia del ventriculo izquierdo,144,VERDAD,1.8,departamento,0,normal,0
+22,58,Femenino,Cleveland,angina tipica,150,283,VERDAD,Hipertrofia del ventriculo izquierdo,162,FALSO,1,pendiente ascendente,0,normal,0
+23,58,Masculino,Cleveland,angina atipica,120,284,FALSO,Hipertrofia del ventriculo izquierdo,160,FALSO,1.8,departamento,0,normal,1
+24,58,Masculino,Cleveland,no anginoso,132,224,FALSO,Hipertrofia del ventriculo izquierdo,173,FALSO,3.2,pendiente ascendente,2,defecto reversible,3
+25,60,Masculino,Cleveland,asintomatico,130,206,FALSO,Hipertrofia del ventriculo izquierdo,132,VERDAD,2.4,departamento,2,defecto reversible,4
+26,50,Femenino,Cleveland,no anginoso,120,219,FALSO,normal,158,FALSO,1.6,departamento,0,normal,0
+27,58,Femenino,Cleveland,no anginoso,120,340,FALSO,normal,172,FALSO,0,pendiente ascendente,0,normal,0
+28,66,Femenino,Cleveland,angina tipica,150,226,FALSO,normal,114,FALSO,2.6,pendiente abajo,0,normal,0
+29,43,Masculino,Cleveland,asintomatico,150,247,FALSO,normal,171,FALSO,1.5,pendiente ascendente,0,normal,0
+30,40,Masculino,Cleveland,asintomatico,110,167,FALSO,Hipertrofia del ventriculo izquierdo,114,VERDAD,2,departamento,0,defecto reversible,3
+31,69,Femenino,Cleveland,angina tipica,140,239,FALSO,normal,151,FALSO,1.8,pendiente ascendente,2,normal,0
+32,60,Masculino,Cleveland,asintomatico,117,230,VERDAD,normal,160,VERDAD,1.4,pendiente ascendente,2,defecto reversible,2
+33,64,Masculino,Cleveland,no anginoso,140,335,FALSO,normal,158,FALSO,0,pendiente ascendente,0,normal,1
+34,59,Masculino,Cleveland,asintomatico,135,234,FALSO,normal,161,FALSO,0.5,departamento,0,defecto reversible,0
+35,44,Masculino,Cleveland,no anginoso,130,233,FALSO,normal,179,VERDAD,0.4,pendiente ascendente,0,normal,0
+36,42,Masculino,Cleveland,asintomatico,140,226,FALSO,normal,178,FALSO,0,pendiente ascendente,0,normal,0
+37,43,Masculino,Cleveland,asintomatico,120,177,FALSO,Hipertrofia del ventriculo izquierdo,120,VERDAD,2.5,departamento,0,defecto reversible,3
+38,57,Masculino,Cleveland,asintomatico,150,276,FALSO,Hipertrofia del ventriculo izquierdo,112,VERDAD,0.6,departamento,1,defecto corregido,1
+39,55,Masculino,Cleveland,asintomatico,132,353,FALSO,normal,132,VERDAD,1.2,departamento,1,defecto reversible,3
+40,61,Masculino,Cleveland,no anginoso,150,243,VERDAD,normal,137,VERDAD,1,departamento,0,normal,0
+41,65,Femenino,Cleveland,asintomatico,150,225,FALSO,Hipertrofia del ventriculo izquierdo,114,FALSO,1,departamento,3,defecto reversible,4
+42,40,Masculino,Cleveland,angina tipica,140,199,FALSO,normal,178,VERDAD,1.4,pendiente ascendente,0,defecto reversible,0
+43,71,Femenino,Cleveland,angina atipica,160,302,FALSO,normal,162,FALSO,0.4,pendiente ascendente,2,normal,0
+44,59,Masculino,Cleveland,no anginoso,150,212,VERDAD,normal,157,FALSO,1.6,pendiente ascendente,0,normal,0
+45,61,Femenino,Cleveland,asintomatico,130,330,FALSO,Hipertrofia del ventriculo izquierdo,169,FALSO,0,pendiente ascendente,0,normal,1
+46,58,Masculino,Cleveland,no anginoso,112,230,FALSO,Hipertrofia del ventriculo izquierdo,165,FALSO,2.5,departamento,1,defecto reversible,4
+47,51,Masculino,Cleveland,no anginoso,110,175,FALSO,normal,123,FALSO,0.6,pendiente ascendente,0,normal,0
+48,50,Masculino,Cleveland,asintomatico,150,243,FALSO,Hipertrofia del ventriculo izquierdo,128,FALSO,2.6,departamento,0,defecto reversible,4
+49,65,Femenino,Cleveland,no anginoso,140,417,VERDAD,Hipertrofia del ventriculo izquierdo,157,FALSO,0.8,pendiente ascendente,1,normal,0
+50,53,Masculino,Cleveland,no anginoso,130,197,VERDAD,Hipertrofia del ventriculo izquierdo,152,FALSO,1.2,pendiente abajo,0,normal,0
+51,41,Femenino,Cleveland,angina atipica,105,198,FALSO,normal,168,FALSO,0,pendiente ascendente,1,normal,0
+52,65,Masculino,Cleveland,asintomatico,120,177,FALSO,normal,140,FALSO,0.4,pendiente ascendente,0,defecto reversible,0
+53,44,Masculino,Cleveland,asintomatico,112,290,FALSO,Hipertrofia del ventriculo izquierdo,153,FALSO,0,pendiente ascendente,1,normal,2
+54,44,Masculino,Cleveland,angina atipica,130,219,FALSO,Hipertrofia del ventriculo izquierdo,188,FALSO,0,pendiente ascendente,0,normal,0
+55,60,Masculino,Cleveland,asintomatico,130,253,FALSO,normal,144,VERDAD,1.4,pendiente ascendente,1,defecto reversible,1
+56,54,Masculino,Cleveland,asintomatico,124,266,FALSO,Hipertrofia del ventriculo izquierdo,109,VERDAD,2.2,departamento,1,defecto reversible,1
+57,50,Masculino,Cleveland,no anginoso,140,233,FALSO,normal,163,FALSO,0.6,departamento,1,defecto reversible,1
+58,41,Masculino,Cleveland,asintomatico,110,172,FALSO,Hipertrofia del ventriculo izquierdo,158,FALSO,0,pendiente ascendente,0,defecto reversible,1
+59,54,Masculino,Cleveland,no anginoso,125,273,FALSO,Hipertrofia del ventriculo izquierdo,152,FALSO,0.5,pendiente abajo,1,normal,0
+60,51,Masculino,Cleveland,angina tipica,125,213,FALSO,Hipertrofia del ventriculo izquierdo,125,VERDAD,1.4,pendiente ascendente,1,normal,0
+61,51,Femenino,Cleveland,asintomatico,130,305,FALSO,normal,142,VERDAD,1.2,departamento,0,defecto reversible,2
+62,46,Femenino,Cleveland,no anginoso,142,177,FALSO,Hipertrofia del ventriculo izquierdo,160,VERDAD,1.4,pendiente abajo,0,normal,0
+63,58,Masculino,Cleveland,asintomatico,128,216,FALSO,Hipertrofia del ventriculo izquierdo,131,VERDAD,2.2,departamento,3,defecto reversible,1
+64,54,Femenino,Cleveland,no anginoso,135,304,VERDAD,normal,170,FALSO,0,pendiente ascendente,0,normal,0
+65,54,Masculino,Cleveland,asintomatico,120,188,FALSO,normal,113,FALSO,1.4,departamento,1,defecto reversible,2
+66,60,Masculino,Cleveland,asintomatico,145,282,FALSO,Hipertrofia del ventriculo izquierdo,142,VERDAD,2.8,departamento,2,defecto reversible,2
+67,60,Masculino,Cleveland,no anginoso,140,185,FALSO,Hipertrofia del ventriculo izquierdo,155,FALSO,3,departamento,0,normal,1
+68,54,Masculino,Cleveland,no anginoso,150,232,FALSO,Hipertrofia del ventriculo izquierdo,165,FALSO,1.6,pendiente ascendente,0,defecto reversible,0
+69,59,Masculino,Cleveland,asintomatico,170,326,FALSO,Hipertrofia del ventriculo izquierdo,140,VERDAD,3.4,pendiente abajo,0,defecto reversible,2
+70,46,Masculino,Cleveland,no anginoso,150,231,FALSO,normal,147,FALSO,3.6,departamento,0,normal,1
+71,65,Femenino,Cleveland,no anginoso,155,269,FALSO,normal,148,FALSO,0.8,pendiente ascendente,0,normal,0
+72,67,Masculino,Cleveland,asintomatico,125,254,VERDAD,normal,163,FALSO,0.2,departamento,2,defecto reversible,3
+73,62,Masculino,Cleveland,asintomatico,120,267,FALSO,normal,99,VERDAD,1.8,departamento,2,defecto reversible,1
+74,65,Masculino,Cleveland,asintomatico,110,248,FALSO,Hipertrofia del ventriculo izquierdo,158,FALSO,0.6,pendiente ascendente,2,defecto corregido,1
+75,44,Masculino,Cleveland,asintomatico,110,197,FALSO,Hipertrofia del ventriculo izquierdo,177,FALSO,0,pendiente ascendente,1,normal,1
+76,65,Femenino,Cleveland,no anginoso,160,360,FALSO,Hipertrofia del ventriculo izquierdo,151,FALSO,0.8,pendiente ascendente,0,normal,0
+77,60,Masculino,Cleveland,asintomatico,125,258,FALSO,Hipertrofia del ventriculo izquierdo,141,VERDAD,2.8,departamento,1,defecto reversible,1
+78,51,Femenino,Cleveland,no anginoso,140,308,FALSO,Hipertrofia del ventriculo izquierdo,142,FALSO,1.5,pendiente ascendente,1,normal,0
+79,48,Masculino,Cleveland,angina atipica,130,245,FALSO,Hipertrofia del ventriculo izquierdo,180,FALSO,0.2,departamento,0,normal,0
+80,58,Masculino,Cleveland,asintomatico,150,270,FALSO,Hipertrofia del ventriculo izquierdo,111,VERDAD,0.8,pendiente ascendente,0,defecto reversible,3
+81,45,Masculino,Cleveland,asintomatico,104,208,FALSO,Hipertrofia del ventriculo izquierdo,148,VERDAD,3,departamento,0,normal,0
+82,53,Femenino,Cleveland,asintomatico,130,264,FALSO,Hipertrofia del ventriculo izquierdo,143,FALSO,0.4,departamento,0,normal,0
+83,39,Masculino,Cleveland,no anginoso,140,321,FALSO,Hipertrofia del ventriculo izquierdo,182,FALSO,0,pendiente ascendente,0,normal,0
+84,68,Masculino,Cleveland,no anginoso,180,274,VERDAD,Hipertrofia del ventriculo izquierdo,150,VERDAD,1.6,departamento,0,defecto reversible,3
+85,52,Masculino,Cleveland,angina atipica,120,325,FALSO,normal,172,FALSO,0.2,pendiente ascendente,0,normal,0
+86,44,Masculino,Cleveland,no anginoso,140,235,FALSO,Hipertrofia del ventriculo izquierdo,180,FALSO,0,pendiente ascendente,0,normal,0
+87,47,Masculino,Cleveland,no anginoso,138,257,FALSO,Hipertrofia del ventriculo izquierdo,156,FALSO,0,pendiente ascendente,0,normal,0
+88,53,Femenino,Cleveland,no anginoso,128,216,FALSO,Hipertrofia del ventriculo izquierdo,115,FALSO,0,pendiente ascendente,0,,0
+89,53,Femenino,Cleveland,asintomatico,138,234,FALSO,Hipertrofia del ventriculo izquierdo,160,FALSO,0,pendiente ascendente,0,normal,0
+90,51,Femenino,Cleveland,no anginoso,130,256,FALSO,Hipertrofia del ventriculo izquierdo,149,FALSO,0.5,pendiente ascendente,0,normal,0
+91,66,Masculino,Cleveland,asintomatico,120,302,FALSO,Hipertrofia del ventriculo izquierdo,151,FALSO,0.4,departamento,0,normal,0
+92,62,Femenino,Cleveland,asintomatico,160,164,FALSO,Hipertrofia del ventriculo izquierdo,145,FALSO,6.2,pendiente abajo,3,defecto reversible,3
+93,62,Masculino,Cleveland,no anginoso,130,231,FALSO,normal,146,FALSO,1.8,departamento,3,defecto reversible,0
+94,44,Femenino,Cleveland,no anginoso,108,141,FALSO,normal,175,FALSO,0.6,departamento,0,normal,0
+95,63,Femenino,Cleveland,no anginoso,135,252,FALSO,Hipertrofia del ventriculo izquierdo,172,FALSO,0,pendiente ascendente,0,normal,0
+96,52,Masculino,Cleveland,asintomatico,128,255,FALSO,normal,161,VERDAD,0,pendiente ascendente,1,defecto reversible,1
+97,59,Masculino,Cleveland,asintomatico,110,239,FALSO,Hipertrofia del ventriculo izquierdo,142,VERDAD,1.2,departamento,1,defecto reversible,2
+98,60,Femenino,Cleveland,asintomatico,150,258,FALSO,Hipertrofia del ventriculo izquierdo,157,FALSO,2.6,departamento,2,defecto reversible,3
+99,52,Masculino,Cleveland,angina atipica,134,201,FALSO,normal,158,FALSO,0.8,pendiente ascendente,1,normal,0
+100,48,Masculino,Cleveland,asintomatico,122,222,FALSO,Hipertrofia del ventriculo izquierdo,186,FALSO,0,pendiente ascendente,0,normal,0
+101,45,Masculino,Cleveland,asintomatico,115,260,FALSO,Hipertrofia del ventriculo izquierdo,185,FALSO,0,pendiente ascendente,0,normal,0
+102,34,Masculino,Cleveland,angina tipica,118,182,FALSO,Hipertrofia del ventriculo izquierdo,174,FALSO,0,pendiente ascendente,0,normal,0
+103,57,Femenino,Cleveland,asintomatico,128,303,FALSO,Hipertrofia del ventriculo izquierdo,159,FALSO,0,pendiente ascendente,1,normal,0
+104,71,Femenino,Cleveland,no anginoso,110,265,VERDAD,Hipertrofia del ventriculo izquierdo,130,FALSO,0,pendiente ascendente,1,normal,0
+105,49,Masculino,Cleveland,no anginoso,120,188,FALSO,normal,139,FALSO,2,departamento,3,defecto reversible,3
+106,54,Masculino,Cleveland,angina atipica,108,309,FALSO,normal,156,FALSO,0,pendiente ascendente,0,defecto reversible,0
+107,59,Masculino,Cleveland,asintomatico,140,177,FALSO,normal,162,VERDAD,0,pendiente ascendente,1,defecto reversible,2
+108,57,Masculino,Cleveland,no anginoso,128,229,FALSO,Hipertrofia del ventriculo izquierdo,150,FALSO,0.4,departamento,1,defecto reversible,1
+109,61,Masculino,Cleveland,asintomatico,120,260,FALSO,normal,140,VERDAD,3.6,departamento,1,defecto reversible,2
+110,39,Masculino,Cleveland,asintomatico,118,219,FALSO,normal,140,FALSO,1.2,departamento,0,defecto reversible,3
+111,61,Femenino,Cleveland,asintomatico,145,307,FALSO,Hipertrofia del ventriculo izquierdo,146,VERDAD,1,departamento,0,defecto reversible,1
+112,56,Masculino,Cleveland,asintomatico,125,249,VERDAD,Hipertrofia del ventriculo izquierdo,144,VERDAD,1.2,departamento,1,normal,1
+113,52,Masculino,Cleveland,angina tipica,118,186,FALSO,Hipertrofia del ventriculo izquierdo,190,FALSO,0,departamento,0,defecto corregido,0
+114,43,Femenino,Cleveland,asintomatico,132,341,VERDAD,Hipertrofia del ventriculo izquierdo,136,VERDAD,3,departamento,0,defecto reversible,2
+115,62,Femenino,Cleveland,no anginoso,130,263,FALSO,normal,97,FALSO,1.2,departamento,1,defecto reversible,2
+116,41,Masculino,Cleveland,angina atipica,135,203,FALSO,normal,132,FALSO,0,departamento,0,defecto corregido,0
+117,58,Masculino,Cleveland,no anginoso,140,211,VERDAD,Hipertrofia del ventriculo izquierdo,165,FALSO,0,pendiente ascendente,0,normal,0
+118,35,Femenino,Cleveland,asintomatico,138,183,FALSO,normal,182,FALSO,1.4,pendiente ascendente,0,normal,0
+119,63,Masculino,Cleveland,asintomatico,130,330,VERDAD,Hipertrofia del ventriculo izquierdo,132,VERDAD,1.8,pendiente ascendente,3,defecto reversible,3
+120,65,Masculino,Cleveland,asintomatico,135,254,FALSO,Hipertrofia del ventriculo izquierdo,127,FALSO,2.8,departamento,1,defecto reversible,2
+121,48,Masculino,Cleveland,asintomatico,130,256,VERDAD,Hipertrofia del ventriculo izquierdo,150,VERDAD,0,pendiente ascendente,2,defecto reversible,3
+122,63,Femenino,Cleveland,asintomatico,150,407,FALSO,Hipertrofia del ventriculo izquierdo,154,FALSO,4,departamento,3,defecto reversible,4
+123,51,Masculino,Cleveland,no anginoso,100,222,FALSO,normal,143,VERDAD,1.2,departamento,0,normal,0
+124,55,Masculino,Cleveland,asintomatico,140,217,FALSO,normal,111,VERDAD,5.6,pendiente abajo,0,defecto reversible,3
+125,65,Masculino,Cleveland,angina tipica,138,282,VERDAD,Hipertrofia del ventriculo izquierdo,174,FALSO,1.4,departamento,1,normal,1
+126,45,Femenino,Cleveland,angina atipica,130,234,FALSO,Hipertrofia del ventriculo izquierdo,175,FALSO,0.6,departamento,0,normal,0
+127,56,Femenino,Cleveland,asintomatico,200,288,VERDAD,Hipertrofia del ventriculo izquierdo,133,VERDAD,4,pendiente abajo,2,defecto reversible,3
+128,54,Masculino,Cleveland,asintomatico,110,239,FALSO,normal,126,VERDAD,2.8,departamento,1,defecto reversible,3
+129,44,Masculino,Cleveland,angina atipica,120,220,FALSO,normal,170,FALSO,0,pendiente ascendente,0,normal,0
+130,62,Femenino,Cleveland,asintomatico,124,209,FALSO,normal,163,FALSO,0,pendiente ascendente,0,normal,0
+131,54,Masculino,Cleveland,no anginoso,120,258,FALSO,Hipertrofia del ventriculo izquierdo,147,FALSO,0.4,departamento,0,defecto reversible,0
+132,51,Masculino,Cleveland,no anginoso,94,227,FALSO,normal,154,VERDAD,0,pendiente ascendente,1,defecto reversible,0
+133,29,Masculino,Cleveland,angina atipica,130,204,FALSO,Hipertrofia del ventriculo izquierdo,202,FALSO,0,pendiente ascendente,0,normal,0
+134,51,Masculino,Cleveland,asintomatico,140,261,FALSO,Hipertrofia del ventriculo izquierdo,186,VERDAD,0,pendiente ascendente,0,normal,0
+135,43,Femenino,Cleveland,no anginoso,122,213,FALSO,normal,165,FALSO,0.2,departamento,0,normal,0
+136,55,Femenino,Cleveland,angina atipica,135,250,FALSO,Hipertrofia del ventriculo izquierdo,161,FALSO,1.4,departamento,0,normal,0
+137,70,Masculino,Cleveland,asintomatico,145,174,FALSO,normal,125,VERDAD,2.6,pendiente abajo,0,defecto reversible,4
+138,62,Masculino,Cleveland,angina atipica,120,281,FALSO,Hipertrofia del ventriculo izquierdo,103,FALSO,1.4,departamento,1,defecto reversible,3
+139,35,Masculino,Cleveland,asintomatico,120,198,FALSO,normal,130,VERDAD,1.6,departamento,0,defecto reversible,1
+140,51,Masculino,Cleveland,no anginoso,125,245,VERDAD,Hipertrofia del ventriculo izquierdo,166,FALSO,2.4,departamento,0,normal,0
+141,59,Masculino,Cleveland,angina atipica,140,221,FALSO,normal,164,VERDAD,0,pendiente ascendente,0,normal,0
+142,59,Masculino,Cleveland,angina tipica,170,288,FALSO,Hipertrofia del ventriculo izquierdo,159,FALSO,0.2,departamento,0,defecto reversible,1
+143,52,Masculino,Cleveland,angina atipica,128,205,VERDAD,normal,184,FALSO,0,pendiente ascendente,0,normal,0
+144,64,Masculino,Cleveland,no anginoso,125,309,FALSO,normal,131,VERDAD,1.8,departamento,0,defecto reversible,1
+145,58,Masculino,Cleveland,no anginoso,105,240,FALSO,Hipertrofia del ventriculo izquierdo,154,VERDAD,0.6,departamento,0,defecto reversible,0
+146,47,Masculino,Cleveland,no anginoso,108,243,FALSO,normal,152,FALSO,0,pendiente ascendente,0,normal,1
+147,57,Masculino,Cleveland,asintomatico,165,289,VERDAD,Hipertrofia del ventriculo izquierdo,124,FALSO,1,departamento,3,defecto reversible,4
+148,41,Masculino,Cleveland,no anginoso,112,250,FALSO,normal,179,FALSO,0,pendiente ascendente,0,normal,0
+149,45,Masculino,Cleveland,angina atipica,128,308,FALSO,Hipertrofia del ventriculo izquierdo,170,FALSO,0,pendiente ascendente,0,normal,0
+150,60,Femenino,Cleveland,no anginoso,102,318,FALSO,normal,160,FALSO,0,pendiente ascendente,1,normal,0
+151,52,Masculino,Cleveland,angina tipica,152,298,VERDAD,normal,178,FALSO,1.2,departamento,0,defecto reversible,0
+152,42,Femenino,Cleveland,asintomatico,102,265,FALSO,Hipertrofia del ventriculo izquierdo,122,FALSO,0.6,departamento,0,normal,0
+153,67,Femenino,Cleveland,no anginoso,115,564,FALSO,Hipertrofia del ventriculo izquierdo,160,FALSO,1.6,departamento,0,defecto reversible,0
+154,55,Masculino,Cleveland,asintomatico,160,289,FALSO,Hipertrofia del ventriculo izquierdo,145,VERDAD,0.8,departamento,1,defecto reversible,4
+155,64,Masculino,Cleveland,asintomatico,120,246,FALSO,Hipertrofia del ventriculo izquierdo,96,VERDAD,2.2,pendiente abajo,1,normal,3
+156,70,Masculino,Cleveland,asintomatico,130,322,FALSO,Hipertrofia del ventriculo izquierdo,109,FALSO,2.4,departamento,3,normal,1
+157,51,Masculino,Cleveland,asintomatico,140,299,FALSO,normal,173,VERDAD,1.6,pendiente ascendente,0,defecto reversible,1
+158,58,Masculino,Cleveland,asintomatico,125,300,FALSO,Hipertrofia del ventriculo izquierdo,171,FALSO,0,pendiente ascendente,2,defecto reversible,1
+159,60,Masculino,Cleveland,asintomatico,140,293,FALSO,Hipertrofia del ventriculo izquierdo,170,FALSO,1.2,departamento,2,defecto reversible,2
+160,68,Masculino,Cleveland,no anginoso,118,277,FALSO,normal,151,FALSO,1,pendiente ascendente,1,defecto reversible,0
+161,46,Masculino,Cleveland,angina atipica,101,197,VERDAD,normal,156,FALSO,0,pendiente ascendente,0,defecto reversible,0
+162,77,Masculino,Cleveland,asintomatico,125,304,FALSO,Hipertrofia del ventriculo izquierdo,162,VERDAD,0,pendiente ascendente,3,normal,4
+163,54,Femenino,Cleveland,no anginoso,110,214,FALSO,normal,158,FALSO,1.6,departamento,0,normal,0
+164,58,Femenino,Cleveland,asintomatico,100,248,FALSO,Hipertrofia del ventriculo izquierdo,122,FALSO,1,departamento,0,normal,0
+165,48,Masculino,Cleveland,no anginoso,124,255,VERDAD,normal,175,FALSO,0,pendiente ascendente,2,normal,0
+166,57,Masculino,Cleveland,asintomatico,132,207,FALSO,normal,168,VERDAD,0,pendiente ascendente,0,defecto reversible,0
+167,52,Masculino,Cleveland,no anginoso,138,223,FALSO,normal,169,FALSO,0,pendiente ascendente,,normal,0
+168,54,Femenino,Cleveland,angina atipica,132,288,VERDAD,Hipertrofia del ventriculo izquierdo,159,VERDAD,0,pendiente ascendente,1,normal,0
+169,35,Masculino,Cleveland,asintomatico,126,282,FALSO,Hipertrofia del ventriculo izquierdo,156,VERDAD,0,pendiente ascendente,0,defecto reversible,1
+170,45,Femenino,Cleveland,angina atipica,112,160,FALSO,normal,138,FALSO,0,departamento,0,normal,0
+171,70,Masculino,Cleveland,no anginoso,160,269,FALSO,normal,112,VERDAD,2.9,departamento,1,defecto reversible,3
+172,53,Masculino,Cleveland,asintomatico,142,226,FALSO,Hipertrofia del ventriculo izquierdo,111,VERDAD,0,pendiente ascendente,0,defecto reversible,0
+173,59,Femenino,Cleveland,asintomatico,174,249,FALSO,normal,143,VERDAD,0,departamento,0,normal,1
+174,62,Femenino,Cleveland,asintomatico,140,394,FALSO,Hipertrofia del ventriculo izquierdo,157,FALSO,1.2,departamento,0,normal,0
+175,64,Masculino,Cleveland,asintomatico,145,212,FALSO,Hipertrofia del ventriculo izquierdo,132,FALSO,2,departamento,2,defecto corregido,4
+176,57,Masculino,Cleveland,asintomatico,152,274,FALSO,normal,88,VERDAD,1.2,departamento,1,defecto reversible,1
+177,52,Masculino,Cleveland,asintomatico,108,233,VERDAD,normal,147,FALSO,0.1,pendiente ascendente,3,defecto reversible,0
+178,56,Masculino,Cleveland,asintomatico,132,184,FALSO,Hipertrofia del ventriculo izquierdo,105,VERDAD,2.1,departamento,1,defecto corregido,1
+179,43,Masculino,Cleveland,no anginoso,130,315,FALSO,normal,162,FALSO,1.9,pendiente ascendente,1,normal,0
+180,53,Masculino,Cleveland,no anginoso,130,246,VERDAD,Hipertrofia del ventriculo izquierdo,173,FALSO,0,pendiente ascendente,3,normal,0
+181,48,Masculino,Cleveland,asintomatico,124,274,FALSO,Hipertrofia del ventriculo izquierdo,166,FALSO,0.5,departamento,0,defecto reversible,3
+182,56,Femenino,Cleveland,asintomatico,134,409,FALSO,Hipertrofia del ventriculo izquierdo,150,VERDAD,1.9,departamento,2,defecto reversible,2
+183,42,Masculino,Cleveland,angina tipica,148,244,FALSO,Hipertrofia del ventriculo izquierdo,178,FALSO,0.8,pendiente ascendente,2,normal,0
+184,59,Masculino,Cleveland,angina tipica,178,270,FALSO,Hipertrofia del ventriculo izquierdo,145,FALSO,4.2,pendiente abajo,0,defecto reversible,0
+185,60,Femenino,Cleveland,asintomatico,158,305,FALSO,Hipertrofia del ventriculo izquierdo,161,FALSO,0,pendiente ascendente,0,normal,1
+186,63,Femenino,Cleveland,angina atipica,140,195,FALSO,normal,179,FALSO,0,pendiente ascendente,2,normal,0
+187,42,Masculino,Cleveland,no anginoso,120,240,VERDAD,normal,194,FALSO,0.8,pendiente abajo,0,defecto reversible,0
+188,66,Masculino,Cleveland,angina atipica,160,246,FALSO,normal,120,VERDAD,0,departamento,3,defecto corregido,2
+189,54,Masculino,Cleveland,angina atipica,192,283,FALSO,Hipertrofia del ventriculo izquierdo,195,FALSO,0,pendiente ascendente,1,defecto reversible,1
+190,69,Masculino,Cleveland,no anginoso,140,254,FALSO,Hipertrofia del ventriculo izquierdo,146,FALSO,2,departamento,3,defecto reversible,2
+191,50,Masculino,Cleveland,no anginoso,129,196,FALSO,normal,163,FALSO,0,pendiente ascendente,0,normal,0
+192,51,Masculino,Cleveland,asintomatico,140,298,FALSO,normal,122,VERDAD,4.2,departamento,3,defecto reversible,3
+193,43,Masculino,Cleveland,asintomatico,132,247,VERDAD,Hipertrofia del ventriculo izquierdo,143,VERDAD,0.1,departamento,,defecto reversible,1
+194,62,Femenino,Cleveland,asintomatico,138,294,VERDAD,normal,106,FALSO,1.9,departamento,3,normal,2
+195,68,Femenino,Cleveland,no anginoso,120,211,FALSO,Hipertrofia del ventriculo izquierdo,115,FALSO,1.5,departamento,0,normal,0
+196,67,Masculino,Cleveland,asintomatico,100,299,FALSO,Hipertrofia del ventriculo izquierdo,125,VERDAD,0.9,departamento,2,normal,3
+197,69,Masculino,Cleveland,angina tipica,160,234,VERDAD,Hipertrofia del ventriculo izquierdo,131,FALSO,0.1,departamento,1,normal,0
+198,45,Femenino,Cleveland,asintomatico,138,236,FALSO,Hipertrofia del ventriculo izquierdo,152,VERDAD,0.2,departamento,0,normal,0
+199,50,Femenino,Cleveland,angina atipica,120,244,FALSO,normal,162,FALSO,1.1,pendiente ascendente,0,normal,0
+200,59,Masculino,Cleveland,angina tipica,160,273,FALSO,Hipertrofia del ventriculo izquierdo,125,FALSO,0,pendiente ascendente,0,normal,1
+201,50,Femenino,Cleveland,asintomatico,110,254,FALSO,Hipertrofia del ventriculo izquierdo,159,FALSO,0,pendiente ascendente,0,normal,0
+202,64,Femenino,Cleveland,asintomatico,180,325,FALSO,normal,154,VERDAD,0,pendiente ascendente,0,normal,0
+203,57,Masculino,Cleveland,no anginoso,150,126,VERDAD,normal,173,FALSO,0.2,pendiente ascendente,1,defecto reversible,0
+204,64,Femenino,Cleveland,no anginoso,140,313,FALSO,normal,133,FALSO,0.2,pendiente ascendente,0,defecto reversible,0
+205,43,Masculino,Cleveland,asintomatico,110,211,FALSO,normal,161,FALSO,0,pendiente ascendente,0,defecto reversible,0
+206,45,Masculino,Cleveland,asintomatico,142,309,FALSO,Hipertrofia del ventriculo izquierdo,147,VERDAD,0,departamento,3,defecto reversible,3
+207,58,Masculino,Cleveland,asintomatico,128,259,FALSO,Hipertrofia del ventriculo izquierdo,130,VERDAD,3,departamento,2,defecto reversible,3
+208,50,Masculino,Cleveland,asintomatico,144,200,FALSO,Hipertrofia del ventriculo izquierdo,126,VERDAD,0.9,departamento,0,defecto reversible,3
+209,55,Masculino,Cleveland,angina atipica,130,262,FALSO,normal,155,FALSO,0,pendiente ascendente,0,normal,0
+210,62,Femenino,Cleveland,asintomatico,150,244,FALSO,normal,154,VERDAD,1.4,departamento,0,normal,1
+211,37,Femenino,Cleveland,no anginoso,120,215,FALSO,normal,170,FALSO,0,pendiente ascendente,0,normal,0
+212,38,Masculino,Cleveland,angina tipica,120,231,FALSO,normal,182,VERDAD,3.8,departamento,0,defecto reversible,4
+213,41,Masculino,Cleveland,no anginoso,130,214,FALSO,Hipertrofia del ventriculo izquierdo,168,FALSO,2,departamento,0,normal,0
+214,66,Femenino,Cleveland,asintomatico,178,228,VERDAD,normal,165,VERDAD,1,departamento,2,defecto reversible,3
+215,52,Masculino,Cleveland,asintomatico,112,230,FALSO,normal,160,FALSO,0,pendiente ascendente,1,normal,1
+216,56,Masculino,Cleveland,angina tipica,120,193,FALSO,Hipertrofia del ventriculo izquierdo,162,FALSO,1.9,departamento,0,defecto reversible,0
+217,46,Femenino,Cleveland,angina atipica,105,204,FALSO,normal,172,FALSO,0,pendiente ascendente,0,normal,0
+218,46,Femenino,Cleveland,asintomatico,138,243,FALSO,Hipertrofia del ventriculo izquierdo,152,VERDAD,0,departamento,0,normal,0
+219,64,Femenino,Cleveland,asintomatico,130,303,FALSO,normal,122,FALSO,2,departamento,2,normal,0
+220,59,Masculino,Cleveland,asintomatico,138,271,FALSO,Hipertrofia del ventriculo izquierdo,182,FALSO,0,pendiente ascendente,0,normal,0
+221,41,Femenino,Cleveland,no anginoso,112,268,FALSO,Hipertrofia del ventriculo izquierdo,172,VERDAD,0,pendiente ascendente,0,normal,0
+222,54,Femenino,Cleveland,no anginoso,108,267,FALSO,Hipertrofia del ventriculo izquierdo,167,FALSO,0,pendiente ascendente,0,normal,0
+223,39,Femenino,Cleveland,no anginoso,94,199,FALSO,normal,179,FALSO,0,pendiente ascendente,0,normal,0
+224,53,Masculino,Cleveland,asintomatico,123,282,FALSO,normal,95,VERDAD,2,departamento,2,defecto reversible,3
+225,63,Femenino,Cleveland,asintomatico,108,269,FALSO,normal,169,VERDAD,1.8,departamento,2,normal,1
+226,34,Femenino,Cleveland,angina atipica,118,210,FALSO,normal,192,FALSO,0.7,pendiente ascendente,0,normal,0
+227,47,Masculino,Cleveland,asintomatico,112,204,FALSO,normal,143,FALSO,0.1,pendiente ascendente,0,normal,0
+228,67,Femenino,Cleveland,no anginoso,152,277,FALSO,normal,172,FALSO,0,pendiente ascendente,1,normal,0
+229,54,Masculino,Cleveland,asintomatico,110,206,FALSO,Hipertrofia del ventriculo izquierdo,108,VERDAD,0,departamento,1,normal,3
+230,66,Masculino,Cleveland,asintomatico,112,212,FALSO,Hipertrofia del ventriculo izquierdo,132,VERDAD,0.1,pendiente ascendente,1,normal,2
+231,52,Femenino,Cleveland,no anginoso,136,196,FALSO,Hipertrofia del ventriculo izquierdo,169,FALSO,0.1,departamento,0,normal,0
+232,55,Femenino,Cleveland,asintomatico,180,327,FALSO,anomalía st-t,117,VERDAD,3.4,departamento,0,normal,2
+233,49,Masculino,Cleveland,no anginoso,118,149,FALSO,Hipertrofia del ventriculo izquierdo,126,FALSO,0.8,pendiente ascendente,3,normal,1
+234,74,Femenino,Cleveland,angina atipica,120,269,FALSO,Hipertrofia del ventriculo izquierdo,121,VERDAD,0.2,pendiente ascendente,1,normal,0
+235,54,Femenino,Cleveland,no anginoso,160,201,FALSO,normal,163,FALSO,0,pendiente ascendente,1,normal,0
+236,54,Masculino,Cleveland,asintomatico,122,286,FALSO,Hipertrofia del ventriculo izquierdo,116,VERDAD,3.2,departamento,2,normal,3
+237,56,Masculino,Cleveland,asintomatico,130,283,VERDAD,Hipertrofia del ventriculo izquierdo,103,VERDAD,1.6,pendiente abajo,0,defecto reversible,2
+238,46,Masculino,Cleveland,asintomatico,120,249,FALSO,Hipertrofia del ventriculo izquierdo,144,FALSO,0.8,pendiente ascendente,0,defecto reversible,1
+239,49,Femenino,Cleveland,angina atipica,134,271,FALSO,normal,162,FALSO,0,departamento,0,normal,0
+240,42,Masculino,Cleveland,angina atipica,120,295,FALSO,normal,162,FALSO,0,pendiente ascendente,0,normal,0
+241,41,Masculino,Cleveland,angina atipica,110,235,FALSO,normal,153,FALSO,0,pendiente ascendente,0,normal,0
+242,41,Femenino,Cleveland,angina atipica,126,306,FALSO,normal,163,FALSO,0,pendiente ascendente,0,normal,0
+243,49,Femenino,Cleveland,asintomatico,130,269,FALSO,normal,163,FALSO,0,pendiente ascendente,0,normal,0
+244,61,Masculino,Cleveland,angina tipica,134,234,FALSO,normal,145,FALSO,2.6,departamento,2,normal,2
+245,60,Femenino,Cleveland,no anginoso,120,178,VERDAD,normal,96,FALSO,0,pendiente ascendente,0,normal,0
+246,67,Masculino,Cleveland,asintomatico,120,237,FALSO,normal,71,FALSO,1,departamento,0,normal,2
+247,58,Masculino,Cleveland,asintomatico,100,234,FALSO,normal,156,FALSO,0.1,pendiente ascendente,1,defecto reversible,2
+248,47,Masculino,Cleveland,asintomatico,110,275,FALSO,Hipertrofia del ventriculo izquierdo,118,VERDAD,1,departamento,1,normal,1
+249,52,Masculino,Cleveland,asintomatico,125,212,FALSO,normal,168,FALSO,1,pendiente ascendente,2,defecto reversible,3
+250,62,Masculino,Cleveland,angina atipica,128,208,VERDAD,Hipertrofia del ventriculo izquierdo,140,FALSO,0,pendiente ascendente,0,normal,0
+251,57,Masculino,Cleveland,asintomatico,110,201,FALSO,normal,126,VERDAD,1.5,departamento,0,defecto corregido,0
+252,58,Masculino,Cleveland,asintomatico,146,218,FALSO,normal,105,FALSO,2,departamento,1,defecto reversible,1
+253,64,Masculino,Cleveland,asintomatico,128,263,FALSO,normal,105,VERDAD,0.2,departamento,1,defecto reversible,0
+254,51,Femenino,Cleveland,no anginoso,120,295,FALSO,Hipertrofia del ventriculo izquierdo,157,FALSO,0.6,pendiente ascendente,0,normal,0
+255,43,Masculino,Cleveland,asintomatico,115,303,FALSO,normal,181,FALSO,1.2,departamento,0,normal,0
+256,42,Femenino,Cleveland,no anginoso,120,209,FALSO,normal,173,FALSO,0,departamento,0,normal,0
+257,67,Femenino,Cleveland,asintomatico,106,223,FALSO,normal,142,FALSO,0.3,pendiente ascendente,2,normal,0
+258,76,Femenino,Cleveland,no anginoso,140,197,FALSO,anomalía st-t,116,FALSO,1.1,departamento,0,normal,0
+259,70,Masculino,Cleveland,angina atipica,156,245,FALSO,Hipertrofia del ventriculo izquierdo,143,FALSO,0,pendiente ascendente,0,normal,0
+260,57,Masculino,Cleveland,angina atipica,124,261,FALSO,normal,141,FALSO,0.3,pendiente ascendente,0,defecto reversible,1
+261,44,Femenino,Cleveland,no anginoso,118,242,FALSO,normal,149,FALSO,0.3,departamento,1,normal,0
+262,58,Femenino,Cleveland,angina atipica,136,319,VERDAD,Hipertrofia del ventriculo izquierdo,152,FALSO,0,pendiente ascendente,2,normal,3
+263,60,Femenino,Cleveland,angina tipica,150,240,FALSO,normal,171,FALSO,0.9,pendiente ascendente,0,normal,0
+264,44,Masculino,Cleveland,no anginoso,120,226,FALSO,normal,169,FALSO,0,pendiente ascendente,0,normal,0
+265,61,Masculino,Cleveland,asintomatico,138,166,FALSO,Hipertrofia del ventriculo izquierdo,125,VERDAD,3.6,departamento,1,normal,4
+266,42,Masculino,Cleveland,asintomatico,136,315,FALSO,normal,125,VERDAD,1.8,departamento,0,defecto corregido,2
+267,52,Masculino,Cleveland,asintomatico,128,204,VERDAD,normal,156,VERDAD,1,departamento,0,,2
+268,59,Masculino,Cleveland,no anginoso,126,218,VERDAD,normal,134,FALSO,2.2,departamento,1,defecto corregido,2
+269,40,Masculino,Cleveland,asintomatico,152,223,FALSO,normal,181,FALSO,0,pendiente ascendente,0,defecto reversible,1
+270,42,Masculino,Cleveland,no anginoso,130,180,FALSO,normal,150,FALSO,0,pendiente ascendente,0,normal,0
+271,61,Masculino,Cleveland,asintomatico,140,207,FALSO,Hipertrofia del ventriculo izquierdo,138,VERDAD,1.9,pendiente ascendente,1,defecto reversible,1
+272,66,Masculino,Cleveland,asintomatico,160,228,FALSO,Hipertrofia del ventriculo izquierdo,138,FALSO,2.3,pendiente ascendente,0,defecto corregido,0
+273,46,Masculino,Cleveland,asintomatico,140,311,FALSO,normal,120,VERDAD,1.8,departamento,2,defecto reversible,2
+274,71,Femenino,Cleveland,asintomatico,112,149,FALSO,normal,125,FALSO,1.6,departamento,0,normal,0
+275,59,Masculino,Cleveland,angina tipica,134,204,FALSO,normal,162,FALSO,0.8,pendiente ascendente,2,normal,1
+276,64,Masculino,Cleveland,angina tipica,170,227,FALSO,Hipertrofia del ventriculo izquierdo,155,FALSO,0.6,departamento,0,defecto reversible,0
+277,66,Femenino,Cleveland,no anginoso,146,278,FALSO,Hipertrofia del ventriculo izquierdo,152,FALSO,0,departamento,1,normal,0
+278,39,Femenino,Cleveland,no anginoso,138,220,FALSO,normal,152,FALSO,0,departamento,0,normal,0
+279,57,Masculino,Cleveland,angina atipica,154,232,FALSO,Hipertrofia del ventriculo izquierdo,164,FALSO,0,pendiente ascendente,1,normal,1
+280,58,Femenino,Cleveland,asintomatico,130,197,FALSO,normal,131,FALSO,0.6,departamento,0,normal,0
+281,57,Masculino,Cleveland,asintomatico,110,335,FALSO,normal,143,VERDAD,3,departamento,1,defecto reversible,2
+282,47,Masculino,Cleveland,no anginoso,130,253,FALSO,normal,179,FALSO,0,pendiente ascendente,0,normal,0
+283,55,Femenino,Cleveland,asintomatico,128,205,FALSO,anomalía st-t,130,VERDAD,2,departamento,1,defecto reversible,3
+284,35,Masculino,Cleveland,angina atipica,122,192,FALSO,normal,174,FALSO,0,pendiente ascendente,0,normal,0
+285,61,Masculino,Cleveland,asintomatico,148,203,FALSO,normal,161,FALSO,0,pendiente ascendente,1,defecto reversible,2
+286,58,Masculino,Cleveland,asintomatico,114,318,FALSO,anomalía st-t,140,FALSO,4.4,pendiente abajo,3,defecto corregido,4
+287,58,Femenino,Cleveland,asintomatico,170,225,VERDAD,Hipertrofia del ventriculo izquierdo,146,VERDAD,2.8,departamento,2,defecto corregido,2
+288,58,Masculino,Cleveland,angina atipica,125,220,FALSO,normal,144,FALSO,0.4,departamento,,defecto reversible,0
+289,56,Masculino,Cleveland,angina atipica,130,221,FALSO,Hipertrofia del ventriculo izquierdo,163,FALSO,0,pendiente ascendente,0,defecto reversible,0
+290,56,Masculino,Cleveland,angina atipica,120,240,FALSO,normal,169,FALSO,0,pendiente abajo,0,normal,0
+291,67,Masculino,Cleveland,no anginoso,152,212,FALSO,Hipertrofia del ventriculo izquierdo,150,FALSO,0.8,departamento,0,defecto reversible,1
+292,55,Femenino,Cleveland,angina atipica,132,342,FALSO,normal,166,FALSO,1.2,pendiente ascendente,0,normal,0
+293,44,Masculino,Cleveland,asintomatico,120,169,FALSO,normal,144,VERDAD,2.8,pendiente abajo,0,defecto corregido,2
+294,63,Masculino,Cleveland,asintomatico,140,187,FALSO,Hipertrofia del ventriculo izquierdo,144,VERDAD,4,pendiente ascendente,2,defecto reversible,2
+295,63,Femenino,Cleveland,asintomatico,124,197,FALSO,normal,136,VERDAD,0,departamento,0,normal,1
+296,41,Masculino,Cleveland,angina atipica,120,157,FALSO,normal,182,FALSO,0,pendiente ascendente,0,normal,0
+297,59,Masculino,Cleveland,asintomatico,164,176,VERDAD,Hipertrofia del ventriculo izquierdo,90,FALSO,1,departamento,2,defecto corregido,3
+298,57,Femenino,Cleveland,asintomatico,140,241,FALSO,normal,123,VERDAD,0.2,departamento,0,defecto reversible,1
+299,45,Masculino,Cleveland,angina tipica,110,264,FALSO,normal,132,FALSO,1.2,departamento,0,defecto reversible,1
+300,68,Masculino,Cleveland,asintomatico,144,193,VERDAD,normal,141,FALSO,3.4,departamento,2,defecto reversible,2
+301,57,Masculino,Cleveland,asintomatico,130,131,FALSO,normal,115,VERDAD,1.2,departamento,1,defecto reversible,3
+302,57,Femenino,Cleveland,angina atipica,130,236,FALSO,Hipertrofia del ventriculo izquierdo,174,FALSO,0,departamento,1,normal,1
+303,38,Masculino,Cleveland,no anginoso,138,175,FALSO,normal,173,FALSO,0,pendiente ascendente,,normal,0
+304,28,Masculino,Cleveland,angina atipica,130,132,FALSO,Hipertrofia del ventriculo izquierdo,185,FALSO,0,,,,0
+305,29,Masculino,Hungria,angina atipica,120,243,FALSO,normal,160,FALSO,0,,,,0
+306,29,Masculino,Hungria,angina atipica,140,,FALSO,normal,170,FALSO,0,,,,0
+307,30,Femenino,Hungria,angina tipica,170,237,FALSO,anomalía st-t,170,FALSO,0,,,defecto corregido,0
+308,31,Femenino,Hungria,angina atipica,100,219,FALSO,anomalía st-t,150,FALSO,0,,,,0
+309,32,Femenino,Hungria,angina atipica,105,198,FALSO,normal,165,FALSO,0,,,,0
+310,32,Masculino,Hungria,angina atipica,110,225,FALSO,normal,184,FALSO,0,,,,0
+311,32,Masculino,Hungria,angina atipica,125,254,FALSO,normal,155,FALSO,0,,,,0
+312,33,Masculino,Hungria,no anginoso,120,298,FALSO,normal,185,FALSO,0,,,,0
+313,34,Femenino,Hungria,angina atipica,130,161,FALSO,normal,190,FALSO,0,,,,0
+314,34,Masculino,Hungria,angina atipica,150,214,FALSO,anomalía st-t,168,FALSO,0,,,,0
+315,34,Masculino,Hungria,angina atipica,98,220,FALSO,normal,150,FALSO,0,,,,0
+316,35,Femenino,Hungria,angina tipica,120,160,FALSO,anomalía st-t,185,FALSO,0,,,,0
+317,35,Femenino,Hungria,asintomatico,140,167,FALSO,normal,150,FALSO,0,,,,0
+318,35,Masculino,Hungria,angina atipica,120,308,FALSO,Hipertrofia del ventriculo izquierdo,180,FALSO,0,,,,0
+319,35,Masculino,Hungria,angina atipica,150,264,FALSO,normal,168,FALSO,0,,,,0
+320,36,Masculino,Hungria,angina atipica,120,166,FALSO,normal,180,FALSO,0,,,,0
+321,36,Masculino,Hungria,no anginoso,112,340,FALSO,normal,184,FALSO,1,departamento,,normal,0
+322,36,Masculino,Hungria,no anginoso,130,209,FALSO,normal,178,FALSO,0,,,,0
+323,36,Masculino,Hungria,no anginoso,150,160,FALSO,normal,172,FALSO,0,,,,0
+324,37,Femenino,Hungria,angina atipica,120,260,FALSO,normal,130,FALSO,0,,,,0
+325,37,Femenino,Hungria,no anginoso,130,211,FALSO,normal,142,FALSO,0,,,,0
+326,37,Femenino,Hungria,asintomatico,130,173,FALSO,anomalía st-t,184,FALSO,0,,,,0
+327,37,Masculino,Hungria,angina atipica,130,283,FALSO,anomalía st-t,98,FALSO,0,,,,0
+328,37,Masculino,Hungria,no anginoso,130,194,FALSO,normal,150,FALSO,0,,,,0
+329,37,Masculino,Hungria,asintomatico,120,223,FALSO,normal,168,FALSO,0,,,normal,0
+330,37,Masculino,Hungria,asintomatico,130,315,FALSO,normal,158,FALSO,0,,,,0
+331,38,Femenino,Hungria,angina atipica,120,275,,normal,129,FALSO,0,,,,0
+332,38,Masculino,Hungria,angina atipica,140,297,FALSO,normal,150,FALSO,0,,,,0
+333,38,Masculino,Hungria,no anginoso,145,292,FALSO,normal,130,FALSO,0,,,,0
+334,39,Femenino,Hungria,no anginoso,110,182,FALSO,anomalía st-t,180,FALSO,0,,,,0
+335,39,Masculino,Hungria,angina atipica,120,,FALSO,anomalía st-t,146,FALSO,2,pendiente ascendente,,,0
+336,39,Masculino,Hungria,angina atipica,120,200,FALSO,normal,160,VERDAD,1,departamento,,,0
+337,39,Masculino,Hungria,angina atipica,120,204,FALSO,normal,145,FALSO,0,,,,0
+338,39,Masculino,Hungria,angina atipica,130,,FALSO,normal,120,FALSO,0,,,,0
+339,39,Masculino,Hungria,angina atipica,190,241,FALSO,normal,106,FALSO,0,,,,0
+340,39,Masculino,Hungria,no anginoso,120,339,FALSO,normal,170,FALSO,0,,,,0
+341,39,Masculino,Hungria,no anginoso,160,147,VERDAD,normal,160,FALSO,0,,,,0
+342,39,Masculino,Hungria,asintomatico,110,273,FALSO,normal,132,FALSO,0,,,,0
+343,39,Masculino,Hungria,asintomatico,130,307,FALSO,normal,140,FALSO,0,,,,0
+344,40,Masculino,Hungria,angina atipica,130,275,FALSO,normal,150,FALSO,0,,,,0
+345,40,Masculino,Hungria,angina atipica,140,289,FALSO,normal,172,FALSO,0,,,,0
+346,40,Masculino,Hungria,no anginoso,130,215,FALSO,normal,138,FALSO,0,,,,0
+347,40,Masculino,Hungria,no anginoso,130,281,FALSO,normal,167,FALSO,0,,,,0
+348,40,Masculino,Hungria,no anginoso,140,,FALSO,normal,188,FALSO,0,,,,0
+349,41,Femenino,Hungria,angina atipica,110,250,FALSO,anomalía st-t,142,FALSO,0,,,,0
+350,41,Femenino,Hungria,angina atipica,125,184,FALSO,normal,180,FALSO,0,,,,0
+351,41,Femenino,Hungria,angina atipica,130,245,FALSO,normal,150,FALSO,0,,,,0
+352,41,Masculino,Hungria,angina atipica,120,291,FALSO,anomalía st-t,160,FALSO,0,,,,0
+353,41,Masculino,Hungria,angina atipica,120,295,FALSO,normal,170,FALSO,0,,,,0
+354,41,Masculino,Hungria,angina atipica,125,269,FALSO,normal,144,FALSO,0,,,,0
+355,41,Masculino,Hungria,asintomatico,112,250,FALSO,normal,142,FALSO,0,,,,0
+356,42,Femenino,Hungria,no anginoso,115,211,FALSO,anomalía st-t,137,FALSO,0,,,,0
+357,42,Masculino,Hungria,angina atipica,120,196,FALSO,normal,150,FALSO,0,,,,0
+358,42,Masculino,Hungria,angina atipica,120,198,FALSO,normal,155,FALSO,0,,,,0
+359,42,Masculino,Hungria,angina atipica,150,268,FALSO,normal,136,FALSO,0,,,,0
+360,42,Masculino,Hungria,no anginoso,120,228,FALSO,normal,152,VERDAD,1.5,departamento,,,0
+361,42,Masculino,Hungria,no anginoso,160,147,FALSO,normal,146,FALSO,0,,,,0
+362,42,Masculino,Hungria,asintomatico,140,358,FALSO,normal,170,FALSO,0,,,,0
+363,43,Femenino,Hungria,angina tipica,100,223,FALSO,normal,142,FALSO,0,,,,0
+364,43,Femenino,Hungria,angina atipica,120,201,FALSO,normal,165,FALSO,0,,,,0
+365,43,Femenino,Hungria,angina atipica,120,215,FALSO,anomalía st-t,175,FALSO,0,,,,0
+366,43,Femenino,Hungria,angina atipica,120,249,FALSO,anomalía st-t,176,FALSO,0,,,,0
+367,43,Femenino,Hungria,angina atipica,120,266,FALSO,normal,118,FALSO,0,,,,0
+368,43,Femenino,Hungria,angina atipica,150,186,FALSO,normal,154,FALSO,0,,,,0
+369,43,Femenino,Hungria,no anginoso,150,,FALSO,normal,175,FALSO,0,,,normal,0
+370,43,Masculino,Hungria,angina atipica,142,207,FALSO,normal,138,FALSO,0,,,,0
+371,44,Femenino,Hungria,asintomatico,120,218,FALSO,anomalía st-t,115,FALSO,0,,,,0
+372,44,Masculino,Hungria,angina atipica,120,184,FALSO,normal,142,FALSO,1,departamento,,,0
+373,44,Masculino,Hungria,angina atipica,130,215,FALSO,normal,135,FALSO,0,,,,0
+374,44,Masculino,Hungria,asintomatico,150,412,FALSO,normal,170,FALSO,0,,,,0
+375,45,Femenino,Hungria,angina atipica,130,237,FALSO,normal,170,FALSO,0,,,,0
+376,45,Femenino,Hungria,angina atipica,180,,FALSO,normal,180,FALSO,0,,,,0
+377,45,Femenino,Hungria,asintomatico,132,297,FALSO,normal,144,FALSO,0,,,,0
+378,45,Masculino,Hungria,angina atipica,140,224,VERDAD,normal,122,FALSO,0,,,,0
+379,45,Masculino,Hungria,no anginoso,135,,FALSO,normal,110,FALSO,0,,,,0
+380,45,Masculino,Hungria,asintomatico,120,225,FALSO,normal,140,FALSO,0,,,,0
+381,45,Masculino,Hungria,asintomatico,140,224,FALSO,normal,144,FALSO,0,,,,0
+382,46,Femenino,Hungria,asintomatico,130,238,FALSO,normal,90,FALSO,0,,,,0
+383,46,Masculino,Hungria,angina atipica,140,275,FALSO,normal,165,VERDAD,0,,,,0
+384,46,Masculino,Hungria,no anginoso,120,230,FALSO,normal,150,FALSO,0,,,,0
+385,46,Masculino,Hungria,no anginoso,150,163,,normal,116,FALSO,0,,,,0
+386,46,Masculino,Hungria,asintomatico,110,238,FALSO,anomalía st-t,140,VERDAD,1,departamento,,normal,0
+387,46,Masculino,Hungria,asintomatico,110,240,FALSO,anomalía st-t,140,FALSO,0,,,normal,0
+388,46,Masculino,Hungria,asintomatico,180,280,FALSO,anomalía st-t,120,FALSO,0,,,,0
+389,47,Femenino,Hungria,angina atipica,140,257,FALSO,normal,135,FALSO,1,pendiente ascendente,,,0
+390,47,Femenino,Hungria,no anginoso,130,,FALSO,normal,145,FALSO,2,departamento,,,0
+391,47,Masculino,Hungria,angina tipica,110,249,FALSO,normal,150,FALSO,0,,,,0
+392,47,Masculino,Hungria,angina atipica,160,263,FALSO,normal,174,FALSO,0,,,,0
+393,47,Masculino,Hungria,asintomatico,140,276,VERDAD,normal,125,VERDAD,0,,,,0
+394,48,Femenino,Hungria,angina atipica,,308,FALSO,anomalía st-t,,,2,pendiente ascendente,,,0
+395,48,Femenino,Hungria,angina atipica,120,,VERDAD,anomalía st-t,148,FALSO,0,,,,0
+396,48,Femenino,Hungria,angina atipica,120,284,FALSO,normal,120,FALSO,0,,,,0
+397,48,Femenino,Hungria,no anginoso,120,195,FALSO,normal,125,FALSO,0,,,,0
+398,48,Femenino,Hungria,asintomatico,108,163,FALSO,normal,175,FALSO,2,pendiente ascendente,,,0
+399,48,Femenino,Hungria,asintomatico,120,254,FALSO,anomalía st-t,110,FALSO,0,,,,0
+400,48,Femenino,Hungria,asintomatico,150,227,FALSO,normal,130,VERDAD,1,departamento,,,0
+401,48,Masculino,Hungria,angina atipica,100,,FALSO,normal,100,FALSO,0,,,,0
+402,48,Masculino,Hungria,angina atipica,130,245,FALSO,normal,160,FALSO,0,,,,0
+403,48,Masculino,Hungria,angina atipica,140,238,FALSO,normal,118,FALSO,0,,,,0
+404,48,Masculino,Hungria,no anginoso,110,211,FALSO,normal,138,FALSO,0,,,defecto corregido,0
+405,49,Femenino,Hungria,angina atipica,110,,FALSO,normal,160,FALSO,0,,,,0
+406,49,Femenino,Hungria,angina atipica,110,,FALSO,normal,160,FALSO,0,,,,0
+407,49,Femenino,Hungria,angina atipica,124,201,FALSO,normal,164,FALSO,0,,,,0
+408,49,Femenino,Hungria,no anginoso,130,207,FALSO,anomalía st-t,135,FALSO,0,,,,0
+409,49,Masculino,Hungria,angina atipica,100,253,FALSO,normal,174,FALSO,0,,,,0
+410,49,Masculino,Hungria,no anginoso,140,187,FALSO,normal,172,FALSO,0,,,,0
+411,49,Masculino,Hungria,asintomatico,120,297,,normal,132,FALSO,1,departamento,,,0
+412,49,Masculino,Hungria,asintomatico,140,,FALSO,normal,130,FALSO,0,,,,0
+413,50,Femenino,Hungria,angina atipica,110,202,FALSO,normal,145,FALSO,0,,,,0
+414,50,Femenino,Hungria,asintomatico,120,328,FALSO,normal,110,VERDAD,1,departamento,,,0
+415,50,Masculino,Hungria,angina atipica,120,168,FALSO,normal,160,FALSO,0,,0,,0
+416,50,Masculino,Hungria,angina atipica,140,216,FALSO,normal,170,FALSO,0,,,normal,0
+417,50,Masculino,Hungria,angina atipica,170,209,FALSO,anomalía st-t,116,FALSO,0,,,,0
+418,50,Masculino,Hungria,asintomatico,140,129,FALSO,normal,135,FALSO,0,,,,0
+419,50,Masculino,Hungria,asintomatico,150,215,FALSO,normal,140,VERDAD,0,,,,0
+420,51,Femenino,Hungria,angina atipica,160,194,FALSO,normal,170,FALSO,0,,,,0
+421,51,Femenino,Hungria,no anginoso,110,190,FALSO,normal,120,FALSO,0,,,,0
+422,51,Femenino,Hungria,no anginoso,130,220,FALSO,normal,160,VERDAD,2,pendiente ascendente,,,0
+423,51,Femenino,Hungria,no anginoso,150,200,FALSO,normal,120,FALSO,0.5,pendiente ascendente,,,0
+424,51,Masculino,Hungria,angina atipica,125,188,FALSO,normal,145,FALSO,0,,,,0
+425,51,Masculino,Hungria,angina atipica,130,224,FALSO,normal,150,FALSO,0,,,,0
+426,51,Masculino,Hungria,asintomatico,130,179,FALSO,normal,100,FALSO,0,,,defecto reversible,0
+427,52,Femenino,Hungria,angina atipica,120,210,FALSO,normal,148,FALSO,0,,,,0
+428,52,Femenino,Hungria,angina atipica,140,,FALSO,normal,140,FALSO,0,,,,0
+429,52,Femenino,Hungria,no anginoso,125,272,FALSO,normal,139,FALSO,0,,,,0
+430,52,Femenino,Hungria,asintomatico,130,180,FALSO,normal,140,VERDAD,1.5,departamento,,,0
+431,52,Masculino,Hungria,angina atipica,120,284,FALSO,normal,118,FALSO,0,,,,0
+432,52,Masculino,Hungria,angina atipica,140,100,FALSO,normal,138,VERDAD,0,,,,0
+433,52,Masculino,Hungria,angina atipica,160,196,FALSO,normal,165,FALSO,0,,,,0
+434,52,Masculino,Hungria,no anginoso,140,259,FALSO,anomalía st-t,170,FALSO,0,,,,0
+435,53,Femenino,Hungria,angina atipica,113,468,,normal,127,FALSO,0,,,,0
+436,53,Femenino,Hungria,angina atipica,140,216,FALSO,normal,142,VERDAD,2,departamento,,,0
+437,53,Femenino,Hungria,no anginoso,120,274,FALSO,normal,130,FALSO,0,,,,0
+438,53,Masculino,Hungria,angina atipica,120,,FALSO,normal,132,FALSO,0,,,,0
+439,53,Masculino,Hungria,angina atipica,140,320,FALSO,normal,162,FALSO,0,,,,0
+440,53,Masculino,Hungria,no anginoso,120,195,FALSO,normal,140,FALSO,0,,,,0
+441,53,Masculino,Hungria,asintomatico,124,260,FALSO,anomalía st-t,112,VERDAD,3,departamento,,,0
+442,53,Masculino,Hungria,asintomatico,130,182,FALSO,normal,148,FALSO,0,,,,0
+443,53,Masculino,Hungria,asintomatico,140,243,FALSO,normal,155,FALSO,0,,,,0
+444,54,Femenino,Hungria,angina atipica,120,221,FALSO,normal,138,FALSO,1,pendiente ascendente,,,0
+445,54,Femenino,Hungria,angina atipica,120,230,VERDAD,normal,140,FALSO,0,,,,0
+446,54,Femenino,Hungria,angina atipica,120,273,FALSO,normal,150,FALSO,1.5,departamento,,,0
+447,54,Femenino,Hungria,angina atipica,130,253,FALSO,anomalía st-t,155,FALSO,0,,,,0
+448,54,Femenino,Hungria,angina atipica,140,309,,anomalía st-t,140,FALSO,0,,,,0
+449,54,Femenino,Hungria,angina atipica,150,230,FALSO,normal,130,FALSO,0,,,,0
+450,54,Femenino,Hungria,angina atipica,160,312,FALSO,normal,130,FALSO,0,,,,0
+451,54,Masculino,Hungria,angina tipica,120,171,FALSO,normal,137,FALSO,2,pendiente ascendente,,,0
+452,54,Masculino,Hungria,angina atipica,110,208,FALSO,normal,142,FALSO,0,,,,0
+453,54,Masculino,Hungria,angina atipica,120,238,FALSO,normal,154,FALSO,0,,,,0
+454,54,Masculino,Hungria,angina atipica,120,246,FALSO,normal,110,FALSO,0,,,,0
+455,54,Masculino,Hungria,angina atipica,160,195,FALSO,anomalía st-t,130,FALSO,1,pendiente ascendente,,,0
+456,54,Masculino,Hungria,angina atipica,160,305,FALSO,normal,175,FALSO,0,,,,0
+457,54,Masculino,Hungria,no anginoso,120,217,FALSO,normal,137,FALSO,0,,,,0
+458,54,Masculino,Hungria,no anginoso,150,,FALSO,normal,122,FALSO,0,,,,0
+459,54,Masculino,Hungria,asintomatico,150,365,FALSO,anomalía st-t,134,FALSO,1,pendiente ascendente,,,0
+460,55,Femenino,Hungria,angina atipica,110,344,FALSO,anomalía st-t,160,FALSO,0,,,,0
+461,55,Femenino,Hungria,angina atipica,122,320,FALSO,normal,155,FALSO,0,,,,0
+462,55,Femenino,Hungria,angina atipica,130,394,FALSO,Hipertrofia del ventriculo izquierdo,150,FALSO,0,,,,0
+463,55,Masculino,Hungria,angina atipica,120,256,VERDAD,normal,137,FALSO,0,,,defecto reversible,0
+464,55,Masculino,Hungria,angina atipica,140,196,FALSO,normal,150,FALSO,0,,,defecto reversible,0
+465,55,Masculino,Hungria,angina atipica,145,326,FALSO,normal,155,FALSO,0,,,,0
+466,55,Masculino,Hungria,no anginoso,110,277,FALSO,normal,160,FALSO,0,,,,0
+467,55,Masculino,Hungria,no anginoso,120,220,FALSO,Hipertrofia del ventriculo izquierdo,134,FALSO,0,,,,0
+468,55,Masculino,Hungria,asintomatico,120,270,FALSO,normal,140,FALSO,0,,,,0
+469,55,Masculino,Hungria,asintomatico,140,229,FALSO,normal,110,VERDAD,0.5,departamento,,,0
+470,56,Femenino,Hungria,no anginoso,130,219,,anomalía st-t,164,FALSO,0,,,defecto reversible,0
+471,56,Masculino,Hungria,angina atipica,130,184,FALSO,normal,100,FALSO,0,,,,0
+472,56,Masculino,Hungria,no anginoso,130,,FALSO,normal,114,FALSO,0,,,,0
+473,56,Masculino,Hungria,no anginoso,130,276,FALSO,normal,128,VERDAD,1,pendiente ascendente,,defecto corregido,0
+474,56,Masculino,Hungria,asintomatico,120,85,FALSO,normal,140,FALSO,0,,,,0
+475,57,Femenino,Hungria,angina tipica,130,308,FALSO,normal,98,FALSO,1,departamento,,,0
+476,57,Femenino,Hungria,asintomatico,180,347,FALSO,anomalía st-t,126,VERDAD,0.8,departamento,,,0
+477,57,Masculino,Hungria,angina atipica,140,260,VERDAD,normal,140,FALSO,0,,,defecto corregido,0
+478,58,Masculino,Hungria,angina atipica,130,230,FALSO,normal,150,FALSO,0,,,,0
+479,58,Masculino,Hungria,angina atipica,130,251,FALSO,normal,110,FALSO,0,,,,0
+480,58,Masculino,Hungria,no anginoso,140,179,FALSO,normal,160,FALSO,0,,,,0
+481,58,Masculino,Hungria,asintomatico,135,222,FALSO,normal,100,FALSO,0,,,,0
+482,59,Femenino,Hungria,angina atipica,130,188,FALSO,normal,124,FALSO,1,departamento,,,0
+483,59,Masculino,Hungria,angina atipica,140,287,FALSO,normal,150,FALSO,0,,,,0
+484,59,Masculino,Hungria,no anginoso,130,318,FALSO,normal,120,VERDAD,1,departamento,,normal,0
+485,59,Masculino,Hungria,no anginoso,180,213,FALSO,normal,100,FALSO,0,,,,0
+486,59,Masculino,Hungria,asintomatico,140,,FALSO,normal,140,FALSO,0,,0,,0
+487,60,Masculino,Hungria,no anginoso,120,246,FALSO,Hipertrofia del ventriculo izquierdo,135,FALSO,0,,,,0
+488,61,Femenino,Hungria,asintomatico,130,294,FALSO,anomalía st-t,120,VERDAD,1,departamento,,,0
+489,61,Masculino,Hungria,asintomatico,125,292,FALSO,anomalía st-t,115,VERDAD,0,,,,0
+490,62,Femenino,Hungria,angina tipica,160,193,FALSO,normal,116,FALSO,0,,,,0
+491,62,Masculino,Hungria,angina atipica,140,271,FALSO,normal,152,FALSO,1,pendiente ascendente,,,0
+492,31,Masculino,Hungria,asintomatico,120,270,FALSO,normal,153,VERDAD,1.5,departamento,,,1
+493,33,Femenino,Hungria,asintomatico,100,246,FALSO,normal,150,VERDAD,1,departamento,,,1
+494,34,Masculino,Hungria,angina tipica,140,156,FALSO,normal,180,FALSO,0,,,,1
+495,35,Masculino,Hungria,angina atipica,110,257,FALSO,normal,140,FALSO,0,,,,1
+496,36,Masculino,Hungria,angina atipica,120,267,FALSO,normal,160,FALSO,3,departamento,,,1
+497,37,Masculino,Hungria,asintomatico,140,207,FALSO,normal,130,VERDAD,1.5,departamento,,,1
+498,38,Masculino,Hungria,asintomatico,110,196,FALSO,normal,166,FALSO,0,,,,1
+499,38,Masculino,Hungria,asintomatico,120,282,FALSO,normal,170,FALSO,0,,,,1
+500,38,Masculino,Hungria,asintomatico,92,117,FALSO,normal,134,VERDAD,2.5,departamento,,,1
+501,40,Masculino,Hungria,asintomatico,120,466,,normal,152,VERDAD,1,departamento,,defecto corregido,1
+502,41,Masculino,Hungria,asintomatico,110,289,FALSO,normal,170,FALSO,0,,,defecto corregido,1
+503,41,Masculino,Hungria,asintomatico,120,237,,normal,138,VERDAD,1,departamento,,,1
+504,43,Masculino,Hungria,asintomatico,150,247,FALSO,normal,130,VERDAD,2,departamento,,,1
+505,46,Masculino,Hungria,asintomatico,110,202,FALSO,normal,150,VERDAD,0,,,,1
+506,46,Masculino,Hungria,asintomatico,118,186,FALSO,normal,124,FALSO,0,,,defecto reversible,1
+507,46,Masculino,Hungria,asintomatico,120,277,FALSO,normal,125,VERDAD,1,departamento,,,1
+508,47,Masculino,Hungria,no anginoso,140,193,FALSO,normal,145,VERDAD,1,departamento,,,1
+509,47,Masculino,Hungria,asintomatico,150,226,FALSO,normal,98,VERDAD,1.5,departamento,0,defecto reversible,1
+510,48,Masculino,Hungria,asintomatico,106,263,VERDAD,normal,110,FALSO,0,,,,1
+511,48,Masculino,Hungria,asintomatico,120,260,FALSO,normal,115,FALSO,2,departamento,,,1
+512,48,Masculino,Hungria,asintomatico,160,268,FALSO,normal,103,VERDAD,1,departamento,,,1
+513,49,Femenino,Hungria,no anginoso,160,180,FALSO,normal,156,FALSO,1,departamento,,,1
+514,49,Masculino,Hungria,no anginoso,115,265,FALSO,normal,175,FALSO,0,,,,1
+515,49,Masculino,Hungria,asintomatico,130,206,FALSO,normal,170,FALSO,0,,,,1
+516,50,Femenino,Hungria,no anginoso,140,288,FALSO,normal,140,VERDAD,0,,,defecto reversible,1
+517,50,Masculino,Hungria,asintomatico,145,264,FALSO,normal,150,FALSO,0,,,,1
+518,51,Femenino,Hungria,asintomatico,160,303,FALSO,normal,150,VERDAD,1,departamento,,,1
+519,52,Masculino,Hungria,asintomatico,130,225,FALSO,normal,120,VERDAD,2,departamento,,,1
+520,54,Masculino,Hungria,asintomatico,125,216,FALSO,normal,140,FALSO,0,,,,1
+521,54,Masculino,Hungria,asintomatico,125,224,FALSO,normal,122,FALSO,2,departamento,,,1
+522,55,Masculino,Hungria,asintomatico,140,201,FALSO,normal,130,VERDAD,3,departamento,,,1
+523,57,Masculino,Hungria,angina atipica,140,265,FALSO,anomalía st-t,145,VERDAD,1,departamento,,,1
+524,58,Masculino,Hungria,no anginoso,130,213,FALSO,anomalía st-t,140,FALSO,0,,,defecto corregido,1
+525,59,Femenino,Hungria,asintomatico,130,338,VERDAD,anomalía st-t,130,VERDAD,1.5,departamento,,,1
+526,60,Masculino,Hungria,asintomatico,100,248,FALSO,normal,125,FALSO,1,departamento,,,1
+527,63,Masculino,Hungria,asintomatico,150,223,FALSO,normal,115,FALSO,0,,,,1
+528,65,Masculino,Hungria,asintomatico,140,306,VERDAD,normal,87,VERDAD,1.5,departamento,,,1
+529,32,Masculino,Hungria,asintomatico,118,529,FALSO,normal,130,FALSO,0,,,,1
+530,38,Masculino,Hungria,asintomatico,110,,FALSO,normal,150,VERDAD,1,departamento,,,1
+531,39,Masculino,Hungria,asintomatico,110,280,FALSO,normal,150,FALSO,0,,,defecto corregido,1
+532,40,Femenino,Hungria,asintomatico,150,392,FALSO,normal,130,FALSO,2,departamento,,defecto corregido,1
+533,43,Masculino,Hungria,angina tipica,120,291,FALSO,anomalía st-t,155,FALSO,0,,,,1
+534,45,Masculino,Hungria,asintomatico,130,219,FALSO,anomalía st-t,130,VERDAD,1,departamento,,,1
+535,46,Masculino,Hungria,asintomatico,120,231,FALSO,normal,115,VERDAD,0,,,,1
+536,46,Masculino,Hungria,asintomatico,130,222,FALSO,normal,112,FALSO,0,,,,1
+537,48,Masculino,Hungria,asintomatico,122,275,VERDAD,anomalía st-t,150,VERDAD,2,pendiente abajo,,,1
+538,48,Masculino,Hungria,asintomatico,160,193,FALSO,normal,102,VERDAD,3,departamento,,,1
+539,48,Masculino,Hungria,asintomatico,160,329,FALSO,normal,92,VERDAD,1.5,departamento,,,1
+540,48,Masculino,Hungria,asintomatico,160,355,FALSO,normal,99,VERDAD,2,departamento,,,1
+541,50,Masculino,Hungria,asintomatico,130,233,FALSO,normal,121,VERDAD,2,departamento,,defecto reversible,1
+542,52,Masculino,Hungria,asintomatico,120,182,FALSO,normal,150,FALSO,0,,,,1
+543,52,Masculino,Hungria,asintomatico,170,,FALSO,normal,126,VERDAD,1.5,departamento,,,1
+544,53,Masculino,Hungria,asintomatico,120,246,FALSO,normal,116,VERDAD,0,,,,1
+545,54,Masculino,Hungria,no anginoso,120,237,FALSO,normal,150,VERDAD,1.5,,,defecto reversible,1
+546,54,Masculino,Hungria,asintomatico,130,242,FALSO,normal,91,VERDAD,1,departamento,,,1
+547,54,Masculino,Hungria,asintomatico,130,603,VERDAD,normal,125,VERDAD,1,departamento,,,1
+548,54,Masculino,Hungria,asintomatico,140,,FALSO,normal,118,VERDAD,0,,,,1
+549,54,Masculino,Hungria,asintomatico,200,198,FALSO,normal,142,VERDAD,2,departamento,,,1
+550,55,Masculino,Hungria,asintomatico,140,268,FALSO,normal,128,VERDAD,1.5,departamento,,,1
+551,56,Masculino,Hungria,asintomatico,150,213,VERDAD,normal,125,VERDAD,1,departamento,,,1
+552,57,Masculino,Hungria,asintomatico,150,255,FALSO,normal,92,VERDAD,3,departamento,,,1
+553,58,Masculino,Hungria,no anginoso,160,211,VERDAD,anomalía st-t,92,FALSO,0,,,,1
+554,58,Masculino,Hungria,asintomatico,130,263,FALSO,normal,140,VERDAD,2,departamento,,,1
+555,41,Masculino,Hungria,asintomatico,130,172,FALSO,anomalía st-t,130,FALSO,2,departamento,,,1
+556,43,Masculino,Hungria,asintomatico,120,175,FALSO,normal,120,VERDAD,1,departamento,,defecto reversible,1
+557,44,Masculino,Hungria,angina atipica,150,288,FALSO,normal,150,VERDAD,3,departamento,,,1
+558,44,Masculino,Hungria,asintomatico,130,290,FALSO,normal,100,VERDAD,2,departamento,,,1
+559,46,Masculino,Hungria,angina tipica,140,272,VERDAD,normal,175,FALSO,2,departamento,,,1
+560,47,Femenino,Hungria,no anginoso,135,248,VERDAD,normal,170,FALSO,0,,,,1
+561,48,Femenino,Hungria,asintomatico,138,214,FALSO,normal,108,VERDAD,1.5,departamento,,,1
+562,49,Masculino,Hungria,asintomatico,130,341,FALSO,normal,120,VERDAD,1,departamento,,,1
+563,49,Masculino,Hungria,asintomatico,140,234,FALSO,normal,140,VERDAD,1,departamento,,,1
+564,51,Masculino,Hungria,no anginoso,135,160,FALSO,normal,150,FALSO,2,departamento,,,1
+565,52,Masculino,Hungria,asintomatico,112,342,FALSO,anomalía st-t,96,VERDAD,1,departamento,,,1
+566,52,Masculino,Hungria,asintomatico,130,298,FALSO,normal,110,VERDAD,1,departamento,,,1
+567,52,Masculino,Hungria,asintomatico,140,404,FALSO,normal,124,VERDAD,2,departamento,,,1
+568,52,Masculino,Hungria,asintomatico,160,246,FALSO,anomalía st-t,82,VERDAD,4,departamento,,,1
+569,53,Masculino,Hungria,no anginoso,145,518,FALSO,normal,130,FALSO,0,,,,1
+570,53,Masculino,Hungria,asintomatico,180,285,FALSO,anomalía st-t,120,VERDAD,1.5,departamento,,,1
+571,54,Masculino,Hungria,asintomatico,140,216,FALSO,normal,105,FALSO,1.5,departamento,,,1
+572,55,Masculino,Hungria,angina tipica,140,295,FALSO,,136,FALSO,0,,,,1
+573,55,Masculino,Hungria,angina atipica,160,292,VERDAD,normal,143,VERDAD,2,departamento,,,1
+574,55,Masculino,Hungria,asintomatico,145,248,FALSO,normal,96,VERDAD,2,departamento,,,1
+575,56,Femenino,Hungria,angina atipica,120,279,FALSO,normal,150,FALSO,1,departamento,,,1
+576,56,Masculino,Hungria,asintomatico,150,230,FALSO,anomalía st-t,124,VERDAD,1.5,departamento,,,1
+577,56,Masculino,Hungria,asintomatico,170,388,FALSO,anomalía st-t,122,VERDAD,2,departamento,,,1
+578,58,Masculino,Hungria,angina atipica,136,164,FALSO,anomalía st-t,99,VERDAD,2,departamento,,,1
+579,59,Masculino,Hungria,asintomatico,130,,FALSO,normal,125,FALSO,0,,,,1
+580,59,Masculino,Hungria,asintomatico,140,264,VERDAD,Hipertrofia del ventriculo izquierdo,119,VERDAD,0,,,,1
+581,65,Masculino,Hungria,asintomatico,170,263,VERDAD,normal,112,VERDAD,2,departamento,,,1
+582,66,Masculino,Hungria,asintomatico,140,,FALSO,normal,94,VERDAD,1,departamento,,,1
+583,41,Masculino,Hungria,asintomatico,120,336,FALSO,normal,118,VERDAD,3,departamento,,,1
+584,43,Masculino,Hungria,asintomatico,140,288,FALSO,normal,135,VERDAD,2,departamento,,,1
+585,44,Masculino,Hungria,asintomatico,135,491,FALSO,normal,135,FALSO,0,,,,1
+586,47,Femenino,Hungria,asintomatico,120,205,FALSO,normal,98,VERDAD,2,departamento,,defecto corregido,1
+587,47,Masculino,Hungria,asintomatico,160,291,FALSO,anomalía st-t,158,VERDAD,3,departamento,,,1
+588,49,Masculino,Hungria,asintomatico,128,212,FALSO,normal,96,VERDAD,0,,,,1
+589,49,Masculino,Hungria,asintomatico,150,222,FALSO,normal,122,FALSO,2,departamento,,,1
+590,50,Masculino,Hungria,asintomatico,140,231,FALSO,anomalía st-t,140,VERDAD,5,departamento,,,1
+591,50,Masculino,Hungria,asintomatico,140,341,FALSO,anomalía st-t,125,VERDAD,2.5,departamento,,,1
+592,52,Masculino,Hungria,asintomatico,140,266,FALSO,normal,134,VERDAD,2,departamento,,,1
+593,52,Masculino,Hungria,asintomatico,160,331,FALSO,normal,94,VERDAD,2.5,,,,1
+594,54,Femenino,Hungria,no anginoso,130,294,FALSO,anomalía st-t,100,VERDAD,0,departamento,,,1
+595,56,Masculino,Hungria,asintomatico,155,342,VERDAD,normal,150,VERDAD,3,departamento,,,1
+596,58,Femenino,Hungria,angina atipica,180,393,FALSO,normal,110,VERDAD,1,departamento,,defecto reversible,1
+597,65,Masculino,Hungria,asintomatico,130,275,FALSO,anomalía st-t,115,VERDAD,1,departamento,,,1
+598,32,Masculino,Suiza,angina tipica,95,0,,normal,127,FALSO,0.7,pendiente ascendente,,,1
+599,34,Masculino,Suiza,asintomatico,115,0,,,154,FALSO,0.2,pendiente ascendente,,,1
+600,35,Masculino,Suiza,asintomatico,,0,,normal,130,VERDAD,,,,defecto reversible,3
+601,36,Masculino,Suiza,asintomatico,110,0,,normal,125,VERDAD,1,departamento,,defecto corregido,1
+602,38,Femenino,Suiza,asintomatico,105,0,,normal,166,FALSO,2.8,pendiente ascendente,,,2
+603,38,Femenino,Suiza,asintomatico,110,0,FALSO,normal,156,FALSO,0,departamento,,normal,1
+604,38,Masculino,Suiza,no anginoso,100,0,,normal,179,FALSO,-1.1,pendiente ascendente,,,0
+605,38,Masculino,Suiza,no anginoso,115,0,FALSO,normal,128,VERDAD,0,departamento,,defecto reversible,1
+606,38,Masculino,Suiza,asintomatico,135,0,,normal,150,FALSO,0,,,normal,2
+607,38,Masculino,Suiza,asintomatico,150,0,,normal,120,VERDAD,,,,normal,1
+608,40,Masculino,Suiza,asintomatico,95,0,,anomalía st-t,144,FALSO,0,pendiente ascendente,,,2
+609,41,Masculino,Suiza,asintomatico,125,0,,normal,176,FALSO,1.6,pendiente ascendente,,,2
+610,42,Masculino,Suiza,asintomatico,105,0,,normal,128,VERDAD,-1.5,pendiente abajo,,,1
+611,42,Masculino,Suiza,asintomatico,145,0,FALSO,normal,99,VERDAD,0,departamento,,,2
+612,43,Masculino,Suiza,asintomatico,100,0,,normal,122,FALSO,1.5,pendiente abajo,,,3
+613,43,Masculino,Suiza,asintomatico,115,0,FALSO,normal,145,VERDAD,2,departamento,,defecto reversible,4
+614,43,Masculino,Suiza,asintomatico,140,0,FALSO,anomalía st-t,140,VERDAD,0.5,pendiente ascendente,,defecto reversible,2
+615,45,Masculino,Suiza,no anginoso,110,0,,normal,138,FALSO,-0.1,pendiente ascendente,,,0
+616,46,Masculino,Suiza,asintomatico,100,0,,anomalía st-t,133,FALSO,-2.6,departamento,,,1
+617,46,Masculino,Suiza,asintomatico,115,0,FALSO,normal,113,VERDAD,1.5,departamento,,defecto reversible,1
+618,47,Masculino,Suiza,no anginoso,110,0,,normal,120,VERDAD,0,,,normal,1
+619,47,Masculino,Suiza,no anginoso,155,0,FALSO,normal,118,VERDAD,1,departamento,,normal,3
+620,47,Masculino,Suiza,asintomatico,110,0,,anomalía st-t,149,FALSO,2.1,pendiente ascendente,,,2
+621,47,Masculino,Suiza,asintomatico,160,0,FALSO,normal,124,VERDAD,0,departamento,,defecto reversible,1
+622,48,Masculino,Suiza,asintomatico,115,0,,normal,128,FALSO,0,departamento,,defecto corregido,2
+623,50,Femenino,Suiza,asintomatico,160,0,,normal,110,FALSO,0,,,normal,1
+624,50,Masculino,Suiza,asintomatico,115,0,FALSO,normal,120,VERDAD,0.5,departamento,,defecto corregido,3
+625,50,Masculino,Suiza,asintomatico,120,0,FALSO,anomalía st-t,156,VERDAD,0,pendiente ascendente,,defecto corregido,3
+626,50,Masculino,Suiza,asintomatico,145,0,,normal,139,VERDAD,0.7,departamento,,,1
+627,51,Femenino,Suiza,asintomatico,120,0,,normal,127,VERDAD,1.5,pendiente ascendente,,,2
+628,51,Masculino,Suiza,asintomatico,110,0,,normal,92,FALSO,0,departamento,,,4
+629,51,Masculino,Suiza,asintomatico,120,0,VERDAD,normal,104,FALSO,0,departamento,,normal,3
+630,51,Masculino,Suiza,asintomatico,130,0,,normal,170,FALSO,-0.7,pendiente ascendente,,,2
+631,51,Masculino,Suiza,asintomatico,130,0,,anomalía st-t,163,FALSO,0,,,defecto reversible,1
+632,51,Masculino,Suiza,asintomatico,140,0,FALSO,normal,60,FALSO,0,departamento,,normal,2
+633,51,Masculino,Suiza,asintomatico,95,0,,normal,126,FALSO,2.2,departamento,,,2
+634,52,Masculino,Suiza,asintomatico,130,0,,normal,120,FALSO,0,departamento,,defecto reversible,2
+635,52,Masculino,Suiza,asintomatico,135,0,,normal,128,VERDAD,2,departamento,,defecto reversible,2
+636,52,Masculino,Suiza,asintomatico,165,0,,normal,122,VERDAD,1,pendiente ascendente,,defecto reversible,2
+637,52,Masculino,Suiza,asintomatico,95,0,,normal,82,VERDAD,,,,,2
+638,53,Masculino,Suiza,angina atipica,120,0,FALSO,normal,95,FALSO,0,departamento,,normal,3
+639,53,Masculino,Suiza,angina atipica,130,0,,anomalía st-t,120,FALSO,0.7,pendiente abajo,,,0
+640,53,Masculino,Suiza,no anginoso,105,0,FALSO,normal,115,FALSO,0,departamento,,defecto reversible,1
+641,53,Masculino,Suiza,no anginoso,160,0,,Hipertrofia del ventriculo izquierdo,122,VERDAD,0,,,defecto reversible,1
+642,53,Masculino,Suiza,asintomatico,120,0,,normal,120,FALSO,0,departamento,,defecto reversible,1
+643,53,Masculino,Suiza,asintomatico,125,0,,normal,120,FALSO,1.5,pendiente ascendente,,,4
+644,53,Masculino,Suiza,asintomatico,130,0,FALSO,Hipertrofia del ventriculo izquierdo,135,VERDAD,1,departamento,,defecto reversible,2
+645,53,Masculino,Suiza,asintomatico,80,0,,normal,141,VERDAD,2,pendiente abajo,,,0
+646,54,Masculino,Suiza,asintomatico,120,0,FALSO,normal,155,FALSO,0,departamento,,defecto reversible,2
+647,54,Masculino,Suiza,asintomatico,130,0,,normal,110,VERDAD,3,departamento,,defecto reversible,3
+648,54,Masculino,Suiza,asintomatico,180,0,,normal,150,FALSO,1.5,departamento,,defecto reversible,1
+649,55,Masculino,Suiza,angina atipica,140,0,,anomalía st-t,150,FALSO,0.2,pendiente ascendente,,,0
+650,55,Masculino,Suiza,asintomatico,115,0,,normal,155,FALSO,0.1,departamento,,,1
+651,55,Masculino,Suiza,asintomatico,120,0,FALSO,anomalía st-t,92,FALSO,0.3,pendiente ascendente,,defecto reversible,4
+652,55,Masculino,Suiza,asintomatico,140,0,FALSO,normal,83,FALSO,0,departamento,,defecto reversible,2
+653,56,Masculino,Suiza,no anginoso,120,0,FALSO,normal,97,FALSO,0,departamento,,defecto reversible,0
+654,56,Masculino,Suiza,no anginoso,125,0,,normal,98,FALSO,-2,departamento,,defecto reversible,2
+655,56,Masculino,Suiza,no anginoso,155,0,FALSO,anomalía st-t,99,FALSO,0,departamento,,normal,2
+656,56,Masculino,Suiza,asintomatico,115,0,,anomalía st-t,82,FALSO,-1,pendiente ascendente,,,1
+657,56,Masculino,Suiza,asintomatico,120,0,FALSO,anomalía st-t,100,VERDAD,-1,pendiente abajo,,defecto reversible,2
+658,56,Masculino,Suiza,asintomatico,120,0,FALSO,anomalía st-t,148,FALSO,0,departamento,,,2
+659,56,Masculino,Suiza,asintomatico,125,0,VERDAD,normal,103,VERDAD,1,departamento,,defecto reversible,3
+660,56,Masculino,Suiza,asintomatico,140,0,,normal,121,VERDAD,1.8,pendiente ascendente,,,1
+661,57,Masculino,Suiza,no anginoso,105,0,,normal,148,FALSO,0.3,departamento,,,1
+662,57,Masculino,Suiza,asintomatico,110,0,,anomalía st-t,131,VERDAD,1.4,pendiente ascendente,1,,3
+663,57,Masculino,Suiza,asintomatico,140,0,FALSO,normal,120,VERDAD,2,departamento,,defecto corregido,2
+664,57,Masculino,Suiza,asintomatico,140,0,,normal,100,VERDAD,0,,,defecto corregido,3
+665,57,Masculino,Suiza,asintomatico,160,0,,normal,98,VERDAD,2,departamento,,defecto reversible,2
+666,57,Masculino,Suiza,asintomatico,95,0,,normal,182,FALSO,0.7,pendiente abajo,,,1
+667,58,Masculino,Suiza,asintomatico,115,0,,normal,138,FALSO,0.5,pendiente ascendente,,,1
+668,58,Masculino,Suiza,asintomatico,130,0,FALSO,anomalía st-t,100,VERDAD,1,departamento,,defecto corregido,4
+669,58,Masculino,Suiza,asintomatico,170,0,,anomalía st-t,105,VERDAD,0,,,normal,1
+670,59,Masculino,Suiza,no anginoso,125,0,,normal,175,FALSO,2.6,departamento,,,1
+671,59,Masculino,Suiza,asintomatico,110,0,,normal,94,FALSO,0,,,defecto corregido,3
+672,59,Masculino,Suiza,asintomatico,120,0,FALSO,normal,115,FALSO,0,departamento,,normal,2
+673,59,Masculino,Suiza,asintomatico,125,0,,normal,119,VERDAD,0.9,pendiente ascendente,,,1
+674,59,Masculino,Suiza,asintomatico,135,0,FALSO,normal,115,VERDAD,1,departamento,,defecto reversible,1
+675,60,Masculino,Suiza,no anginoso,115,0,,normal,143,FALSO,2.4,pendiente ascendente,,,1
+676,60,Masculino,Suiza,asintomatico,125,0,,normal,110,FALSO,0.1,pendiente ascendente,2,,3
+677,60,Masculino,Suiza,asintomatico,130,0,,anomalía st-t,130,VERDAD,1.1,pendiente abajo,1,,1
+678,60,Masculino,Suiza,asintomatico,135,0,FALSO,normal,63,VERDAD,0.5,pendiente ascendente,,defecto reversible,3
+679,60,Masculino,Suiza,asintomatico,160,0,FALSO,anomalía st-t,99,VERDAD,0.5,departamento,,defecto reversible,3
+680,60,Masculino,Suiza,asintomatico,160,0,,normal,149,FALSO,0.4,departamento,,,1
+681,61,Masculino,Suiza,no anginoso,200,0,,anomalía st-t,70,FALSO,0,,,normal,3
+682,61,Masculino,Suiza,asintomatico,105,0,,normal,110,VERDAD,1.5,pendiente ascendente,,,1
+683,61,Masculino,Suiza,asintomatico,110,0,,normal,113,FALSO,1.4,departamento,,,1
+684,61,Masculino,Suiza,asintomatico,125,0,FALSO,normal,105,VERDAD,0,pendiente abajo,,defecto reversible,3
+685,61,Masculino,Suiza,asintomatico,130,0,FALSO,Hipertrofia del ventriculo izquierdo,115,FALSO,0,departamento,,defecto reversible,3
+686,61,Masculino,Suiza,asintomatico,130,0,,normal,77,FALSO,2.5,departamento,,,3
+687,61,Masculino,Suiza,asintomatico,150,0,FALSO,normal,105,VERDAD,0,departamento,,defecto reversible,1
+688,61,Masculino,Suiza,asintomatico,150,0,FALSO,normal,117,VERDAD,2,departamento,,defecto reversible,2
+689,61,Masculino,Suiza,asintomatico,160,0,VERDAD,anomalía st-t,145,FALSO,1,departamento,,defecto reversible,2
+690,62,Femenino,Suiza,angina tipica,140,0,,normal,143,FALSO,0,,,normal,2
+691,62,Femenino,Suiza,asintomatico,120,0,,anomalía st-t,123,VERDAD,1.7,pendiente abajo,,,1
+692,62,Masculino,Suiza,angina tipica,120,0,,Hipertrofia del ventriculo izquierdo,134,FALSO,-0.8,departamento,2,,1
+693,62,Masculino,Suiza,no anginoso,160,0,FALSO,normal,72,VERDAD,0,departamento,,normal,3
+694,62,Masculino,Suiza,asintomatico,115,0,,normal,128,VERDAD,2.5,pendiente abajo,,,2
+695,62,Masculino,Suiza,asintomatico,115,0,,normal,72,VERDAD,-0.5,departamento,,normal,1
+696,62,Masculino,Suiza,asintomatico,150,0,,anomalía st-t,78,FALSO,2,departamento,,defecto reversible,3
+697,63,Masculino,Suiza,asintomatico,100,0,,normal,109,FALSO,-0.9,departamento,,,1
+698,63,Masculino,Suiza,asintomatico,140,0,,Hipertrofia del ventriculo izquierdo,149,FALSO,2,pendiente ascendente,,,2
+699,63,Masculino,Suiza,asintomatico,150,0,FALSO,normal,86,VERDAD,2,departamento,,,3
+700,63,Masculino,Suiza,asintomatico,150,0,,anomalía st-t,154,FALSO,3.7,pendiente ascendente,,,3
+701,63,Masculino,Suiza,asintomatico,185,0,FALSO,normal,98,VERDAD,0,pendiente ascendente,,defecto reversible,1
+702,64,Femenino,Suiza,asintomatico,200,0,FALSO,normal,140,VERDAD,1,departamento,,normal,3
+703,64,Femenino,Suiza,asintomatico,95,0,,normal,145,FALSO,1.1,pendiente abajo,,,1
+704,64,Masculino,Suiza,asintomatico,110,0,,normal,114,VERDAD,1.3,pendiente abajo,,,1
+705,65,Masculino,Suiza,asintomatico,115,0,FALSO,normal,93,VERDAD,0,departamento,,defecto reversible,1
+706,65,Masculino,Suiza,asintomatico,145,0,,anomalía st-t,67,FALSO,,,,defecto corregido,3
+707,65,Masculino,Suiza,asintomatico,155,0,,normal,154,FALSO,1,pendiente ascendente,,,0
+708,65,Masculino,Suiza,asintomatico,160,0,VERDAD,anomalía st-t,122,FALSO,,,,defecto reversible,3
+709,66,Femenino,Suiza,asintomatico,155,0,,normal,90,FALSO,0,,,defecto reversible,1
+710,66,Masculino,Suiza,asintomatico,150,0,FALSO,normal,108,VERDAD,2,departamento,,defecto reversible,3
+711,67,Masculino,Suiza,angina tipica,145,0,FALSO,Hipertrofia del ventriculo izquierdo,125,FALSO,0,departamento,,normal,2
+712,68,Masculino,Suiza,asintomatico,135,0,FALSO,anomalía st-t,120,VERDAD,0,pendiente ascendente,,defecto reversible,3
+713,68,Masculino,Suiza,asintomatico,145,0,,normal,136,FALSO,1.8,pendiente ascendente,,,1
+714,69,Masculino,Suiza,asintomatico,135,0,FALSO,normal,130,FALSO,0,departamento,,defecto corregido,1
+715,69,Masculino,Suiza,asintomatico,,0,FALSO,anomalía st-t,,,,,,defecto reversible,3
+716,70,Masculino,Suiza,asintomatico,115,0,FALSO,anomalía st-t,92,VERDAD,0,departamento,,defecto reversible,1
+717,70,Masculino,Suiza,asintomatico,140,0,VERDAD,normal,157,VERDAD,2,departamento,,defecto reversible,3
+718,72,Masculino,Suiza,no anginoso,160,0,,Hipertrofia del ventriculo izquierdo,114,FALSO,1.6,departamento,2,,0
+719,73,Femenino,Suiza,no anginoso,160,0,FALSO,anomalía st-t,121,FALSO,0,pendiente ascendente,,normal,1
+720,74,Masculino,Suiza,angina atipica,145,0,,anomalía st-t,123,FALSO,1.3,pendiente ascendente,,,1
+721,63,Masculino,Virginia Long Beach,asintomatico,140,260,FALSO,anomalía st-t,112,VERDAD,3,departamento,,,2
+722,44,Masculino,Virginia Long Beach,asintomatico,130,209,FALSO,anomalía st-t,127,FALSO,0,,,,0
+723,60,Masculino,Virginia Long Beach,asintomatico,132,218,FALSO,anomalía st-t,140,VERDAD,1.5,pendiente abajo,,,2
+724,55,Masculino,Virginia Long Beach,asintomatico,142,228,FALSO,anomalía st-t,149,VERDAD,2.5,pendiente ascendente,,,1
+725,66,Masculino,Virginia Long Beach,no anginoso,110,213,VERDAD,Hipertrofia del ventriculo izquierdo,99,VERDAD,1.3,departamento,,,0
+726,66,Masculino,Virginia Long Beach,no anginoso,120,0,FALSO,anomalía st-t,120,FALSO,-0.5,pendiente ascendente,,,0
+727,65,Masculino,Virginia Long Beach,asintomatico,150,236,VERDAD,anomalía st-t,105,VERDAD,0,,,,3
+728,60,Masculino,Virginia Long Beach,no anginoso,180,0,FALSO,anomalía st-t,140,VERDAD,1.5,departamento,,,0
+729,60,Masculino,Virginia Long Beach,no anginoso,120,0,,normal,141,VERDAD,2,pendiente ascendente,,,3
+730,60,Masculino,Virginia Long Beach,angina atipica,160,267,VERDAD,anomalía st-t,157,FALSO,0.5,departamento,,,1
+731,56,Masculino,Virginia Long Beach,angina atipica,126,166,FALSO,anomalía st-t,140,FALSO,0,,,,0
+732,59,Masculino,Virginia Long Beach,asintomatico,140,0,FALSO,anomalía st-t,117,VERDAD,1,departamento,,,1
+733,62,Masculino,Virginia Long Beach,asintomatico,110,0,FALSO,normal,120,VERDAD,0.5,departamento,,normal,1
+734,63,Masculino,Virginia Long Beach,no anginoso,,0,FALSO,Hipertrofia del ventriculo izquierdo,,,,,,,1
+735,57,Masculino,Virginia Long Beach,asintomatico,128,0,VERDAD,anomalía st-t,148,VERDAD,1,departamento,,,1
+736,62,Masculino,Virginia Long Beach,asintomatico,120,220,FALSO,anomalía st-t,86,FALSO,0,,,,0
+737,63,Masculino,Virginia Long Beach,asintomatico,170,177,FALSO,normal,84,VERDAD,2.5,pendiente abajo,,,4
+738,46,Masculino,Virginia Long Beach,asintomatico,110,236,FALSO,normal,125,VERDAD,2,departamento,,,1
+739,63,Masculino,Virginia Long Beach,asintomatico,126,0,FALSO,anomalía st-t,120,FALSO,1.5,pendiente abajo,,,0
+740,60,Masculino,Virginia Long Beach,asintomatico,152,0,FALSO,anomalía st-t,118,VERDAD,0,,,defecto reversible,0
+741,58,Masculino,Virginia Long Beach,asintomatico,116,0,FALSO,normal,124,FALSO,1,pendiente ascendente,,,2
+742,64,Masculino,Virginia Long Beach,asintomatico,120,0,VERDAD,anomalía st-t,106,FALSO,2,departamento,,,1
+743,63,Masculino,Virginia Long Beach,no anginoso,130,0,FALSO,anomalía st-t,111,VERDAD,0,,,,3
+744,74,Masculino,Virginia Long Beach,no anginoso,,0,FALSO,normal,,,,,,,0
+745,52,Masculino,Virginia Long Beach,no anginoso,128,0,FALSO,anomalía st-t,180,FALSO,3,pendiente ascendente,,,2
+746,69,Masculino,Virginia Long Beach,asintomatico,130,0,VERDAD,anomalía st-t,129,FALSO,1,departamento,,defecto corregido,2
+747,51,Masculino,Virginia Long Beach,asintomatico,,0,VERDAD,anomalía st-t,,,,,,,2
+748,60,Masculino,Virginia Long Beach,asintomatico,130,186,VERDAD,anomalía st-t,140,VERDAD,0.5,departamento,,,1
+749,56,Masculino,Virginia Long Beach,asintomatico,120,100,FALSO,normal,120,VERDAD,1.5,departamento,0,defecto reversible,1
+750,55,Masculino,Virginia Long Beach,no anginoso,,228,FALSO,anomalía st-t,,,,,,,3
+751,54,Masculino,Virginia Long Beach,asintomatico,,0,FALSO,anomalía st-t,,,,,,,3
+752,77,Masculino,Virginia Long Beach,asintomatico,124,171,FALSO,anomalía st-t,110,VERDAD,2,pendiente ascendente,,,3
+753,63,Masculino,Virginia Long Beach,asintomatico,160,230,VERDAD,normal,105,VERDAD,1,departamento,,,3
+754,55,Masculino,Virginia Long Beach,no anginoso,0,0,FALSO,normal,155,FALSO,1.5,departamento,,,3
+755,52,Masculino,Virginia Long Beach,no anginoso,122,0,FALSO,normal,110,VERDAD,2,pendiente abajo,,,2
+756,64,Masculino,Virginia Long Beach,asintomatico,144,0,FALSO,anomalía st-t,122,VERDAD,1,departamento,,,3
+757,60,Masculino,Virginia Long Beach,asintomatico,,281,FALSO,anomalía st-t,,,,,,,2
+758,60,Masculino,Virginia Long Beach,asintomatico,120,0,FALSO,normal,133,VERDAD,2,pendiente ascendente,,defecto reversible,0
+759,58,Masculino,Virginia Long Beach,asintomatico,,203,VERDAD,normal,,,,,,,1
+760,59,Masculino,Virginia Long Beach,asintomatico,154,0,FALSO,anomalía st-t,131,VERDAD,1.5,,0,,0
+761,61,Masculino,Virginia Long Beach,no anginoso,120,0,FALSO,normal,80,VERDAD,0,departamento,,,3
+762,40,Masculino,Virginia Long Beach,asintomatico,125,0,VERDAD,normal,165,FALSO,0,,,defecto reversible,1
+763,61,Masculino,Virginia Long Beach,asintomatico,,0,VERDAD,anomalía st-t,86,FALSO,1.5,departamento,,defecto reversible,3
+764,41,Masculino,Virginia Long Beach,asintomatico,104,0,FALSO,anomalía st-t,111,FALSO,0,,,,0
+765,57,Masculino,Virginia Long Beach,asintomatico,,277,VERDAD,anomalía st-t,,,,,,,4
+766,63,Masculino,Virginia Long Beach,asintomatico,136,0,FALSO,normal,84,VERDAD,0,,,defecto reversible,2
+767,59,Masculino,Virginia Long Beach,asintomatico,122,233,FALSO,normal,117,VERDAD,1.3,pendiente abajo,,,1
+768,51,Masculino,Virginia Long Beach,asintomatico,128,0,FALSO,normal,107,FALSO,0,,,,0
+769,59,Masculino,Virginia Long Beach,no anginoso,,0,FALSO,normal,128,VERDAD,2,pendiente abajo,,,2
+770,42,Masculino,Virginia Long Beach,no anginoso,134,240,,normal,160,FALSO,0,,,,0
+771,55,Masculino,Virginia Long Beach,no anginoso,120,0,FALSO,anomalía st-t,125,VERDAD,2.5,departamento,,defecto reversible,1
+772,63,Femenino,Virginia Long Beach,angina atipica,,0,FALSO,normal,,,,,,,0
+773,62,Masculino,Virginia Long Beach,asintomatico,152,153,FALSO,anomalía st-t,97,VERDAD,1.6,pendiente ascendente,,defecto reversible,2
+774,56,Masculino,Virginia Long Beach,angina atipica,124,224,VERDAD,normal,161,FALSO,2,departamento,,,0
+775,53,Masculino,Virginia Long Beach,asintomatico,126,0,FALSO,normal,106,FALSO,0,,,,1
+776,68,Masculino,Virginia Long Beach,asintomatico,138,0,FALSO,normal,130,VERDAD,3,departamento,,,2
+777,53,Masculino,Virginia Long Beach,asintomatico,154,0,,anomalía st-t,140,VERDAD,1.5,departamento,,,2
+778,60,Masculino,Virginia Long Beach,no anginoso,,316,VERDAD,anomalía st-t,,,,,,,3
+779,62,Masculino,Virginia Long Beach,angina atipica,,0,FALSO,normal,,,,,,,0
+780,59,Masculino,Virginia Long Beach,asintomatico,178,0,VERDAD,Hipertrofia del ventriculo izquierdo,120,VERDAD,0,,,defecto reversible,1
+781,51,Masculino,Virginia Long Beach,asintomatico,,218,VERDAD,Hipertrofia del ventriculo izquierdo,,,,,,,0
+782,61,Masculino,Virginia Long Beach,asintomatico,110,0,,normal,108,VERDAD,2,pendiente abajo,,,2
+783,57,Masculino,Virginia Long Beach,asintomatico,130,311,,anomalía st-t,148,VERDAD,2,departamento,,,1
+784,56,Masculino,Virginia Long Beach,no anginoso,170,0,FALSO,Hipertrofia del ventriculo izquierdo,123,VERDAD,2.5,,,,4
+785,58,Masculino,Virginia Long Beach,angina atipica,126,0,VERDAD,normal,110,VERDAD,2,departamento,,,2
+786,69,Masculino,Virginia Long Beach,no anginoso,140,0,,anomalía st-t,118,FALSO,2.5,pendiente abajo,,,2
+787,67,Masculino,Virginia Long Beach,angina tipica,142,270,VERDAD,normal,125,FALSO,2.5,pendiente ascendente,,,3
+788,58,Masculino,Virginia Long Beach,asintomatico,120,0,FALSO,Hipertrofia del ventriculo izquierdo,106,VERDAD,1.5,pendiente abajo,,defecto reversible,1
+789,65,Masculino,Virginia Long Beach,asintomatico,,0,FALSO,normal,,,,,,,1
+790,63,Masculino,Virginia Long Beach,angina atipica,,217,VERDAD,anomalía st-t,,,,,,,1
+791,55,Masculino,Virginia Long Beach,angina atipica,110,214,VERDAD,anomalía st-t,180,FALSO,,,,,0
+792,57,Masculino,Virginia Long Beach,asintomatico,140,214,FALSO,anomalía st-t,144,VERDAD,2,departamento,,defecto corregido,2
+793,65,Masculino,Virginia Long Beach,angina tipica,,252,FALSO,normal,,,,,,,0
+794,54,Masculino,Virginia Long Beach,asintomatico,136,220,FALSO,normal,140,VERDAD,3,departamento,,,3
+795,72,Masculino,Virginia Long Beach,no anginoso,120,214,FALSO,normal,102,VERDAD,1,departamento,,,3
+796,75,Masculino,Virginia Long Beach,asintomatico,170,203,VERDAD,anomalía st-t,108,FALSO,0,,,defecto reversible,1
+797,49,Masculino,Virginia Long Beach,angina tipica,130,0,FALSO,anomalía st-t,145,FALSO,3,departamento,,,2
+798,51,Masculino,Virginia Long Beach,no anginoso,,339,FALSO,normal,,,,,,,3
+799,60,Masculino,Virginia Long Beach,asintomatico,142,216,FALSO,normal,110,VERDAD,2.5,departamento,,,2
+800,64,Femenino,Virginia Long Beach,asintomatico,142,276,FALSO,normal,140,VERDAD,1,departamento,,defecto reversible,1
+801,58,Masculino,Virginia Long Beach,asintomatico,132,458,VERDAD,normal,69,FALSO,1,pendiente abajo,,,0
+802,61,Masculino,Virginia Long Beach,asintomatico,146,241,FALSO,normal,148,VERDAD,3,pendiente abajo,,,2
+803,67,Masculino,Virginia Long Beach,asintomatico,160,384,VERDAD,anomalía st-t,130,VERDAD,0,departamento,,,2
+804,62,Masculino,Virginia Long Beach,asintomatico,135,297,FALSO,normal,130,VERDAD,1,departamento,,,2
+805,65,Masculino,Virginia Long Beach,asintomatico,136,248,FALSO,normal,140,VERDAD,4,pendiente abajo,,,4
+806,63,Masculino,Virginia Long Beach,asintomatico,130,308,FALSO,normal,138,VERDAD,2,departamento,,,2
+807,69,Masculino,Virginia Long Beach,asintomatico,140,208,FALSO,anomalía st-t,140,VERDAD,2,,,,3
+808,51,Masculino,Virginia Long Beach,asintomatico,,227,VERDAD,anomalía st-t,,,,,,,0
+809,62,Masculino,Virginia Long Beach,asintomatico,158,210,VERDAD,normal,112,VERDAD,3,pendiente abajo,,,1
+810,55,Masculino,Virginia Long Beach,no anginoso,,245,VERDAD,anomalía st-t,,,,,,,1
+811,75,Masculino,Virginia Long Beach,asintomatico,136,225,FALSO,normal,112,VERDAD,3,departamento,,,3
+812,40,Masculino,Virginia Long Beach,no anginoso,106,240,FALSO,normal,80,VERDAD,0,,,defecto reversible,0
+813,67,Masculino,Virginia Long Beach,asintomatico,120,0,VERDAD,normal,150,FALSO,1.5,pendiente abajo,,,3
+814,58,Masculino,Virginia Long Beach,asintomatico,110,198,FALSO,normal,110,FALSO,0,,,,1
+815,60,Masculino,Virginia Long Beach,asintomatico,,195,FALSO,normal,,,,,,,0
+816,63,Masculino,Virginia Long Beach,asintomatico,160,267,VERDAD,anomalía st-t,88,VERDAD,2,,,,3
+817,35,Masculino,Virginia Long Beach,no anginoso,,161,FALSO,anomalía st-t,,,,,,,0
+818,62,Masculino,Virginia Long Beach,angina tipica,112,258,FALSO,anomalía st-t,150,VERDAD,,,,,1
+819,43,Masculino,Virginia Long Beach,asintomatico,122,0,FALSO,normal,120,FALSO,0.5,pendiente ascendente,,,1
+820,63,Masculino,Virginia Long Beach,no anginoso,130,0,VERDAD,anomalía st-t,160,FALSO,3,departamento,,,0
+821,68,Masculino,Virginia Long Beach,no anginoso,150,195,VERDAD,normal,132,FALSO,0,,,defecto corregido,1
+822,65,Masculino,Virginia Long Beach,asintomatico,150,235,FALSO,normal,120,VERDAD,1.5,departamento,,,3
+823,48,Masculino,Virginia Long Beach,no anginoso,102,0,,anomalía st-t,110,VERDAD,1,pendiente abajo,,,1
+824,63,Masculino,Virginia Long Beach,asintomatico,96,305,FALSO,anomalía st-t,121,VERDAD,1,pendiente ascendente,,,1
+825,64,Masculino,Virginia Long Beach,asintomatico,130,223,FALSO,anomalía st-t,128,FALSO,0.5,departamento,,,0
+826,61,Masculino,Virginia Long Beach,asintomatico,120,282,FALSO,anomalía st-t,135,VERDAD,4,pendiente abajo,,defecto corregido,3
+827,50,Masculino,Virginia Long Beach,asintomatico,144,349,FALSO,Hipertrofia del ventriculo izquierdo,120,VERDAD,1,pendiente ascendente,,defecto reversible,1
+828,59,Masculino,Virginia Long Beach,asintomatico,124,,FALSO,normal,117,VERDAD,1,departamento,,,1
+829,55,Masculino,Virginia Long Beach,asintomatico,150,160,FALSO,anomalía st-t,150,FALSO,0,,,,0
+830,45,Masculino,Virginia Long Beach,no anginoso,,236,FALSO,normal,,,,,,,0
+831,65,Masculino,Virginia Long Beach,asintomatico,,312,FALSO,Hipertrofia del ventriculo izquierdo,,,,,,,3
+832,61,Masculino,Virginia Long Beach,angina atipica,,283,FALSO,normal,,,,,,,0
+833,49,Masculino,Virginia Long Beach,no anginoso,,142,FALSO,normal,,,,,,,3
+834,72,Masculino,Virginia Long Beach,asintomatico,,211,FALSO,normal,,,,,,,1
+835,50,Masculino,Virginia Long Beach,asintomatico,,218,FALSO,normal,,,,,,,1
+836,64,Masculino,Virginia Long Beach,asintomatico,,306,VERDAD,anomalía st-t,,,,,,,3
+837,55,Masculino,Virginia Long Beach,asintomatico,116,186,VERDAD,anomalía st-t,102,FALSO,0,,,,2
+838,63,Masculino,Virginia Long Beach,asintomatico,110,252,FALSO,anomalía st-t,140,VERDAD,2,departamento,,,2
+839,59,Masculino,Virginia Long Beach,asintomatico,125,222,FALSO,normal,135,VERDAD,2.5,pendiente abajo,,,3
+840,56,Masculino,Virginia Long Beach,asintomatico,,0,FALSO,Hipertrofia del ventriculo izquierdo,,,,,,,1
+841,62,Masculino,Virginia Long Beach,no anginoso,,0,VERDAD,anomalía st-t,,,,,,,2
+842,74,Masculino,Virginia Long Beach,asintomatico,150,258,VERDAD,anomalía st-t,130,VERDAD,4,pendiente abajo,,,3
+843,54,Masculino,Virginia Long Beach,asintomatico,130,202,VERDAD,normal,112,VERDAD,2,departamento,,,1
+844,57,Masculino,Virginia Long Beach,asintomatico,110,197,FALSO,Hipertrofia del ventriculo izquierdo,100,FALSO,0,,,,0
+845,62,Masculino,Virginia Long Beach,no anginoso,,204,FALSO,anomalía st-t,,,,,,,1
+846,76,Masculino,Virginia Long Beach,no anginoso,104,,FALSO,Hipertrofia del ventriculo izquierdo,120,FALSO,3.5,pendiente abajo,,,4
+847,54,Femenino,Virginia Long Beach,asintomatico,138,274,FALSO,normal,105,VERDAD,1.5,departamento,,,1
+848,70,Masculino,Virginia Long Beach,asintomatico,170,192,FALSO,anomalía st-t,129,VERDAD,3,pendiente abajo,,,2
+849,61,Femenino,Virginia Long Beach,angina atipica,140,298,VERDAD,normal,120,VERDAD,0,,,defecto reversible,0
+850,48,Masculino,Virginia Long Beach,asintomatico,,272,FALSO,anomalía st-t,,,,,,,0
+851,48,Masculino,Virginia Long Beach,no anginoso,132,220,VERDAD,anomalía st-t,162,FALSO,0,,,defecto corregido,1
+852,61,Masculino,Virginia Long Beach,angina tipica,142,200,VERDAD,anomalía st-t,100,FALSO,1.5,pendiente abajo,,,3
+853,66,Masculino,Virginia Long Beach,asintomatico,112,261,FALSO,normal,140,FALSO,1.5,pendiente ascendente,,,1
+854,68,Masculino,Virginia Long Beach,angina tipica,,181,VERDAD,anomalía st-t,,,,,,,0
+855,55,Masculino,Virginia Long Beach,asintomatico,172,260,FALSO,normal,73,FALSO,2,,,,3
+856,62,Masculino,Virginia Long Beach,no anginoso,120,220,FALSO,Hipertrofia del ventriculo izquierdo,86,FALSO,0,,,,0
+857,71,Masculino,Virginia Long Beach,no anginoso,,221,FALSO,normal,,,,,,,3
+858,74,Masculino,Virginia Long Beach,angina tipica,,216,VERDAD,normal,,,,,,,3
+859,53,Masculino,Virginia Long Beach,no anginoso,155,175,VERDAD,anomalía st-t,160,FALSO,,,,defecto corregido,0
+860,58,Masculino,Virginia Long Beach,no anginoso,150,219,FALSO,anomalía st-t,118,VERDAD,0,,,,2
+861,75,Masculino,Virginia Long Beach,asintomatico,160,310,VERDAD,normal,112,VERDAD,2,pendiente abajo,,defecto reversible,0
+862,56,Masculino,Virginia Long Beach,no anginoso,,208,VERDAD,anomalía st-t,,,,,,,4
+863,58,Masculino,Virginia Long Beach,no anginoso,,232,FALSO,anomalía st-t,,,,,,,2
+864,64,Masculino,Virginia Long Beach,asintomatico,134,273,FALSO,normal,102,VERDAD,4,pendiente abajo,,,4
+865,54,Masculino,Virginia Long Beach,no anginoso,,203,FALSO,anomalía st-t,,,,,,,0
+866,54,Masculino,Virginia Long Beach,angina atipica,,182,FALSO,anomalía st-t,,,,,,,0
+867,59,Masculino,Virginia Long Beach,asintomatico,140,274,FALSO,normal,154,VERDAD,2,departamento,,,0
+868,55,Masculino,Virginia Long Beach,asintomatico,,204,VERDAD,anomalía st-t,,,,,,,1
+869,57,Masculino,Virginia Long Beach,asintomatico,144,270,VERDAD,anomalía st-t,160,VERDAD,2,departamento,,,3
+870,61,Masculino,Virginia Long Beach,asintomatico,,292,FALSO,anomalía st-t,,,,,,,3
+871,41,Masculino,Virginia Long Beach,asintomatico,150,171,FALSO,normal,128,VERDAD,1.5,departamento,,,0
+872,71,Masculino,Virginia Long Beach,asintomatico,130,221,FALSO,anomalía st-t,115,VERDAD,0,,,,3
+873,38,Masculino,Virginia Long Beach,asintomatico,110,289,FALSO,normal,105,VERDAD,1.5,pendiente abajo,,,1
+874,55,Masculino,Virginia Long Beach,asintomatico,158,217,FALSO,normal,110,VERDAD,2.5,departamento,,,1
+875,56,Masculino,Virginia Long Beach,asintomatico,128,223,FALSO,anomalía st-t,119,VERDAD,2,pendiente abajo,,,2
+876,69,Masculino,Virginia Long Beach,asintomatico,,,VERDAD,normal,,,,,,,2
+877,64,Masculino,Virginia Long Beach,asintomatico,150,193,FALSO,anomalía st-t,135,VERDAD,0.5,departamento,,,2
+878,72,Masculino,Virginia Long Beach,asintomatico,160,,VERDAD,Hipertrofia del ventriculo izquierdo,130,FALSO,1.5,,,,2
+879,69,Masculino,Virginia Long Beach,asintomatico,,210,VERDAD,anomalía st-t,,,,,,,2
+880,56,Masculino,Virginia Long Beach,asintomatico,,282,VERDAD,normal,,,,,,,1
+881,62,Masculino,Virginia Long Beach,asintomatico,,170,FALSO,anomalía st-t,120,VERDAD,3,,,,4
+882,67,Masculino,Virginia Long Beach,asintomatico,,369,FALSO,normal,,,,,,,3
+883,57,Masculino,Virginia Long Beach,asintomatico,156,173,FALSO,Hipertrofia del ventriculo izquierdo,119,VERDAD,3,pendiente abajo,,,3
+884,69,Masculino,Virginia Long Beach,asintomatico,,289,VERDAD,anomalía st-t,,,,,,,3
+885,51,Masculino,Virginia Long Beach,asintomatico,,,VERDAD,Hipertrofia del ventriculo izquierdo,,,,,,defecto reversible,1
+886,48,Masculino,Virginia Long Beach,asintomatico,140,,FALSO,normal,159,VERDAD,1.5,pendiente ascendente,,,3
+887,69,Masculino,Virginia Long Beach,asintomatico,122,216,VERDAD,Hipertrofia del ventriculo izquierdo,84,VERDAD,0,,,defecto reversible,2
+888,69,Masculino,Virginia Long Beach,no anginoso,,271,FALSO,Hipertrofia del ventriculo izquierdo,,,,,,,0
+889,64,Masculino,Virginia Long Beach,asintomatico,,244,VERDAD,anomalía st-t,,,,,,,2
+890,57,Masculino,Virginia Long Beach,angina atipica,180,285,VERDAD,anomalía st-t,120,FALSO,0.8,,,,1
+891,53,Masculino,Virginia Long Beach,asintomatico,124,243,FALSO,normal,122,VERDAD,2,departamento,,defecto reversible,1
+892,37,Masculino,Virginia Long Beach,no anginoso,118,240,FALSO,Hipertrofia del ventriculo izquierdo,165,FALSO,1,departamento,,normal,0
+893,67,Masculino,Virginia Long Beach,asintomatico,140,219,FALSO,anomalía st-t,122,VERDAD,2,departamento,,defecto reversible,3
+894,74,Masculino,Virginia Long Beach,no anginoso,140,237,VERDAD,normal,94,FALSO,0,,,,1
+895,63,Masculino,Virginia Long Beach,angina atipica,,165,FALSO,anomalía st-t,,,,,,,0
+896,58,Masculino,Virginia Long Beach,asintomatico,100,213,FALSO,anomalía st-t,110,FALSO,0,,,,0
+897,61,Masculino,Virginia Long Beach,asintomatico,190,287,VERDAD,Hipertrofia del ventriculo izquierdo,150,VERDAD,2,pendiente abajo,,,4
+898,64,Masculino,Virginia Long Beach,asintomatico,130,258,VERDAD,Hipertrofia del ventriculo izquierdo,130,FALSO,0,,,defecto corregido,2
+899,58,Masculino,Virginia Long Beach,asintomatico,160,256,VERDAD,Hipertrofia del ventriculo izquierdo,113,VERDAD,1,pendiente ascendente,,,3
+900,60,Masculino,Virginia Long Beach,asintomatico,130,186,VERDAD,Hipertrofia del ventriculo izquierdo,140,VERDAD,0.5,departamento,,,1
+901,57,Masculino,Virginia Long Beach,asintomatico,122,264,FALSO,Hipertrofia del ventriculo izquierdo,100,FALSO,0,,,,1
+902,55,Masculino,Virginia Long Beach,no anginoso,,,FALSO,anomalía st-t,,,,,,,0
+903,55,Masculino,Virginia Long Beach,asintomatico,120,226,FALSO,Hipertrofia del ventriculo izquierdo,127,VERDAD,1.7,pendiente abajo,,defecto reversible,1
+904,56,Masculino,Virginia Long Beach,asintomatico,130,203,VERDAD,normal,98,FALSO,1.5,departamento,,defecto reversible,1
+905,57,Masculino,Virginia Long Beach,asintomatico,130,207,FALSO,anomalía st-t,96,VERDAD,1,departamento,,,0
+906,61,Masculino,Virginia Long Beach,no anginoso,,284,FALSO,normal,,,,,,,1
+907,61,Masculino,Virginia Long Beach,no anginoso,120,337,FALSO,normal,98,VERDAD,0,,,,3
+908,58,Masculino,Virginia Long Beach,no anginoso,150,219,FALSO,anomalía st-t,118,VERDAD,0,,,,2
+909,74,Masculino,Virginia Long Beach,asintomatico,155,310,FALSO,normal,112,VERDAD,1.5,pendiente abajo,,,2
+910,68,Masculino,Virginia Long Beach,no anginoso,134,254,VERDAD,normal,151,VERDAD,0,,,normal,0
+911,51,Femenino,Virginia Long Beach,asintomatico,114,258,VERDAD,Hipertrofia del ventriculo izquierdo,96,FALSO,1,pendiente ascendente,,,0
+912,62,Masculino,Virginia Long Beach,asintomatico,160,254,VERDAD,anomalía st-t,108,VERDAD,3,departamento,,,4
+913,53,Masculino,Virginia Long Beach,asintomatico,144,300,VERDAD,anomalía st-t,128,VERDAD,1.5,departamento,,,3
+914,62,Masculino,Virginia Long Beach,asintomatico,158,170,FALSO,anomalía st-t,138,VERDAD,0,,,,1
+915,46,Masculino,Virginia Long Beach,asintomatico,134,310,FALSO,normal,126,FALSO,0,,,normal,2
+916,54,Femenino,Virginia Long Beach,asintomatico,127,333,VERDAD,anomalía st-t,154,FALSO,0,,,,1
+917,62,Masculino,Virginia Long Beach,angina tipica,,139,FALSO,anomalía st-t,,,,,,,0
+918,55,Masculino,Virginia Long Beach,asintomatico,122,223,VERDAD,anomalía st-t,100,FALSO,0,,,defecto corregido,2
+919,58,Masculino,Virginia Long Beach,asintomatico,,385,VERDAD,Hipertrofia del ventriculo izquierdo,,,,,,,0
+920,62,Masculino,Virginia Long Beach,angina atipica,120,254,FALSO,Hipertrofia del ventriculo izquierdo,93,VERDAD,0,,,,1
